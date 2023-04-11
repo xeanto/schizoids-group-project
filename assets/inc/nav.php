@@ -1,20 +1,6 @@
-<!-- OUTDATED, CAN BE USED AS A COMPARISON SHEET, LOOK AT index.php FOR CONTINUED WORK -->
-
-<!DOCTYPE html>
-<html lang="en">
-
-    <head>
+<body>
     
-        <title>Home</title> 
-        <link rel="stylesheet" href="assets/css/style.css">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-    </head>
-    
-    <body>
-    
-    	<!--menue-->
+    	<!--menu-->
 		
 		<div class="topnav" id="myTopnav">
 
@@ -53,30 +39,4 @@
 
 		</div>
 		
-        <!--information NYC places-->
-    	<div id="top">
-
-    		<h1 id="title">Unix Survival Guide</h1>
-    		<img id="" src="" alt="">
-		
-			<h1 id="about">About This Page</h1>
-			<p id="summary"></p>
-			
-		</div>
-		
-		<hr>
-		
-		<footer>
-        <!--Contact info-->
-
-		</footer>
-		
-    </body>
     
-</html>
-
-
-
-
-
-
