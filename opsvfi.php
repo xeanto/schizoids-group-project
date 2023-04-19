@@ -12,7 +12,7 @@
     <img id="" src="" alt="">
     <h3>Opening a file: </h3>
 	<ul>
-		<li><p>To open a file with Nano, simply type the command <b>‘nano’</b> followed by the name of the file you want to open. For example, to open a file called <b>example.txt<b>, type the command <b>‘nano example.txt’<b>.</p></li>
+		<li><p>To open a file with Nano, simply type the command <b>‘nano’</b> followed by the name of the file you want to open. For example, to open a file called <b>example.txt</b>, type the command <b>‘nano example.txt’</b>.</p></li>
 		<br>
 		<li><p>If the file does not exist, Nano will create a new file with that name.</p></li>
 	</ul>
