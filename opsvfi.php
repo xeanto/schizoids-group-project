@@ -10,14 +10,14 @@
 <main>
     <h2>Opening and Saving Files</h2>
     <img id="" src="" alt="">
-    <h3>Opening Files: </h3>
+    <h3>Opening a file: </h3>
 	<ul>
 		<li><p>To open a file with Nano, simply type the command <b>‘nano’<b> followed by the name of the file you want to open. For example, to open a file called <b>example.txt<b>, type the command <b>‘nano example.txt’<b>.</p></li>
 		<br>
 		<li><p>If the file does not exist, Nano will create a new file with that name.</p></li>
 	</ul>
 
-	<h3>Editing a Files: </h3>
+	<h3>Editing a file: </h3>
 	<ul>
 		<li><p>Once you have opened a file with Nano, you can start editing the file. Nano has a simple and intuitive interface that makes it easy to edit text.</p></li>
 		<br>
