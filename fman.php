@@ -21,8 +21,8 @@
     <ul><p>To edit a file, use a text editor such as <b>nano</b>. For example, to edit myfile.txt with nano, use the command <b>‘nano myfile.txt’</b>. Once you're done editing, save and exit the editor to write the changes to the file.</p></ul>
     <br>
     <h3>Renaming and Moving files: </h3>
-    <ul><p>To rename a file, use the <b>‘mv’</b> command followed by the source and the destination. For example, to rename myfile.txt to newfile.txt, use the command <b>‘mv myfile.txt newfile.txt’</b>.</p></ul>
-    <ul><p>To move a file, use the <b>‘mv’</b> command followed by the source and the destination. For example, to move myfile.txt to the Documents directory, use the command <b>‘mv myfile.txt Documents/’</b>.</p></ul>
+    <p>To rename a file, use the <b>‘mv’</b> command followed by the source and the destination. For example, to rename myfile.txt to newfile.txt, use the command <b>‘mv myfile.txt newfile.txt’</b>.</p>
+    <p>To move a file, use the <b>‘mv’</b> command followed by the source and the destination. For example, to move myfile.txt to the Documents directory, use the command <b>‘mv myfile.txt Documents/’</b>.</p>
     <br>
     <h3>Copying files: </h3>
     <ul><p>To copy a file, use the <b>‘cp’</b> command followed by the source file and the destination. For example, to copy myfile.txt to Documents/myfile.txt, use the command <b>‘cp myfile.txt Documents/myfile.txt’</b>.</p></ul>
