@@ -34,14 +34,14 @@
 	<h3>Using regular expressions: </h3>
 	<ul>
 		<li><p>Nano supports regular expressions for searching and replacing text. To use regular expressions, use the <br>‘-r’<br> option when opening a file. For example, to open a file for editing with regular expressions enabled, type:</p>
-            <li><b>‘nano -r filename.txt‘<b></li>
+            <li><b>‘nano -r filename.txt‘</b></li>
         </li>
 		<br>
-        <li><p>To use regular expressions in a search, prefix the search term with <b>‘^’<b> to match the beginning of a line, <b>‘$’<b> to match the end of a line, <b>‘.’<b> to match any character, <b>‘*’<b> to match zero or more of the previous character, and <b>‘+’<b> to match one or more of the previous character. For example, to search for any line that starts with the word "apple", type:</p>
+        <li><p>To use regular expressions in a search, prefix the search term with <b>‘^’</b> to match the beginning of a line, <b>‘$’<b> to match the end of a line, <b>‘.’<b> to match any character, <b>‘*’<b> to match zero or more of the previous character, and <b>‘+’<b> to match one or more of the previous character. For example, to search for any line that starts with the word "apple", type:</p>
             <li><b>‘^apple’<b></li>
         </li>
-        <li><p>To use regular expressions in a replacement, use the <b>‘&’<b> character to represent the matched text. For example, to replace any occurrence of the word "apple" with the word "orange", type:</p>
-            <li><b>‘s/apple/orange/g’<b></li>
+        <li><p>To use regular expressions in a replacement, use the <b>‘&’</b> character to represent the matched text. For example, to replace any occurrence of the word "apple" with the word "orange", type:</p>
+            <li><b>‘s/apple/orange/g’</b></li>
         </li>
 	</ul>
 </main>

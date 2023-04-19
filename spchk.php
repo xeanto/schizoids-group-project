@@ -14,14 +14,14 @@
     <h3>Install the spell-checking tool:</h3>
 	<ul>
 		<li><p>Before you can use the spell-checking feature in Nano, you need to make sure that the appropriate spell-checking tool is installed on your system. For example, if you are using Ubuntu, you can install the "aspell" tool by typing:</p>
-            <li><b>sudo apt-get install aspell <b></li>
+            <li><b>sudo apt-get install aspell </b></li>
         </li>
 	</ul>
 
     <h3>Enable spell-checking:</h3>
 	<ul>
 		<li><p>To enable spell-checking in Nano, you need to add the following line to your ".nanorc" configuration file:</p>
-            <li><b>set autoSpellCheck  <b></li>
+            <li><b>set autoSpellCheck  </b></li>
         </li>
         <li>This will enable spell-checking for all files that you edit with Nano.</li>
 	</ul>

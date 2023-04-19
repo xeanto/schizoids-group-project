@@ -14,7 +14,7 @@
     <h3>Enable syntax highlighting: </h3>
 	<ul>
 		<li><p>To enable syntax highlighting in Nano, you need to open a file that contains code in a supported programming language. Then use the -Y option when opening a file. For example, to enable syntax highlighting for a file containing Python code, type:</p>
-            <li><b>nano -Y python example.py<b></li>
+            <li><b>nano -Y python example.py</b></li>
             <p>This will open the file in Nano with syntax highlighting enabled for the Python programming language.</p>
         </li>
 	</ul>
