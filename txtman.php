@@ -29,7 +29,7 @@
 
 	<h3>Scrolling the screen: </h3>
 	<ul>
-		<li><p>To scroll the screen in Nano, use the <b>Ctrl</b> key in combination with the arrow keys. The <b>Ctrl<b> key and <b>Up<b> arrow key scrolls the screen up one line, the <b>Ctrl</b> key and <b>Down</b> arrow key scrolls the screen down one line, the <b>Ctrl</b> key and <b>Left</b> arrow key scrolls the screen left, and the <b>Ctrl</b> key and <b>Right</b> arrow key scrolls the screen right.</p></li>
+		<li><p>To scroll the screen in Nano, use the <b>Ctrl</b> key in combination with the arrow keys. The <b>Ctrl</b> key and <b>Up</b> arrow key scrolls the screen up one line, the <b>Ctrl</b> key and <b>Down</b> arrow key scrolls the screen down one line, the <b>Ctrl</b> key and <b>Left</b> arrow key scrolls the screen left, and the <b>Ctrl</b> key and <b>Right</b> arrow key scrolls the screen right.</p></li>
 		<br>
 	</ul>
     <h3>Searching and replacing text: </h3>
