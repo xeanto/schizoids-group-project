@@ -7,11 +7,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Prepare the SQL statement to insert the comment into the `comments` table
     // $sql = "INSERT INTO comments(page_id, content, name) VALUES ('$id','$comment','$name')";
     // Prepare parameterized sql insert
-    $mysqli->prepare("INSERT INTO comments(page_id, content, name) VALUES (?, ?, ?)");
-    $mysqli->bind_param("sss",$id, $comment, $name);
-    $mysqli->execute();
+    $sql = $mysqli->prepare("INSERT INTO comments(page_id, content, name) VALUES (?, ?, ?)");
+    $sql->bind_param("sss",$id, $comment, $name);
     // Execute the SQL statement
-    if ($mysqli->query($sql) === TRUE) {
+    if ($sql->execute(); === TRUE) {
       echo "<p>Comment saved successfully</p>";
     } else {
       echo "Error: " . $sql . "<br>" . $mysqli->error;
