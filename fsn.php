@@ -16,7 +16,7 @@
 
     <h3>Listing files and directories:</h3>
 	<ul>
-        <li><p>To list the contents of a directory, use the ‘ls’ command, ‘ls’ by default shows the contents of the current directory. You can specify a different directory by including the path after the <b>‘ls’<b> command, for example: <b>‘ls /home/user/Documents’<b>.</p></ul>
+        <li><p>To list the contents of a directory, use the ‘ls’ command, ‘ls’ by default shows the contents of the current directory. You can specify a different directory by including the path after the <b>‘ls’</b> command, for example: <b>‘ls /home/user/Documents’<b>.</p></ul>
 		<li><p>The ls command also has various options</p>
             <li>-l: long format that shows detailed information about each file and directory, such as permissions, ownership, and size.</li>
             <li>-a: shows hidden files and directories (whose names begin with a period).</li>

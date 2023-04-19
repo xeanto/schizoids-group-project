@@ -8,36 +8,31 @@
 
 
 <main>
-    <h2>File System Navigation</h2>
+    <h2>File manipulation</h2>
     <img id="" src="" alt="">
 
-    <h3>Present Working Directory:	</h3>
-    <ul><p>The present working directory is the directory that you are currently in. You can find out the present working directory by using the <b>‘pwd’</b> command.</p></ul>
-
-    <h3>Listing files and directories:</h3>
-	<ul>
-        <li><p>To list the contents of a directory, use the ‘ls’ command, ‘ls’ by default shows the contents of the current directory. You can specify a different directory by including the path after the <b>‘ls’<b> command, for example: <b>‘ls /home/user/Documents’<b>.</p></ul>
-		<li><p>The ls command also has various options</p>
-            <li>-l: long format that shows detailed information about each file and directory, such as permissions, ownership, and size.</li>
-            <li>-a: shows hidden files and directories (whose names begin with a period).</li>
-            <li>-h: shows file sizes in a human-readable format, such as KB or MB.</li>
-        </li>
-	</ul>
-
-    <h3>Changing directories: </h3>
-	<ul>
-		<li><p>To change to a different directory, use the ‘cd’ command. For example, to change to the Documents directory, you can use <b>‘cd Documents’</b>. If you want to go up one level, use <b>‘cd ..’</b></p></li>
-	</ul>
-
-    <h3>Creating and removing directories: </h3>
-	<ul>
-        <li><p>To create a new directory, use the <b>’mkdir’</b> command followed by the directory name. For example, <b>‘mkdir newdir’</b>.</p></li>
-        <li><p>To remove a directory, use the <b>‘rmdir’</b> command followed by the directory name. However, this command only works if the directory is empty. To remove a directory and all its contents, use the <b>‘rm’</b> command with the <b>‘-r’</b> option. The <b>‘-r’</b> option allows you to recursively copy a directory and all of its contents. For example, <b>‘rm -r mydir’</b>.</p></li>
-    </ul>
-    <h3>Moving files: </h3>
-	<ul>
-        <li><p>To move a file or directory, use the <b>‘mv’</b> command followed by the source and the destination. For example, <b>‘mv myfile.txt /home/user/Documents/’</b>.</p></li>
-    </ul>
+    <h3>Creating files: </h3>
+    <ul><p>To create a new file, use the <b>‘touch’</b> command followed by the file name. For example, <b>‘touch myfile.txt’</b>. You can also create a file with contents using a text editor, such as nano.</p></ul>
+    <br>
+    <h3>Viewing file contents: </h3>
+    <ul><p>To view the contents of a file, use the <b>‘cat’</b> command. For example, <b>‘cat myfile.txt’</b>. You can also use other commands like <b>‘less’</b> or <b>‘more’</b> to view the contents of a file, which allows you to scroll up and down the file.</p></ul>
+    <br>
+    <h3>Editing files: </h3>
+    <ul><p>To edit a file, use a text editor such as <b>nano</b>. For example, to edit myfile.txt with nano, use the command <b>‘nano myfile.txt’</b>. Once you're done editing, save and exit the editor to write the changes to the file.</p></ul>
+    <br>
+    <h3>Renaming and Moving files: </h3>
+    <ul><p>To rename a file, use the <b>‘mv’</b> command followed by the source and the destination. For example, to rename myfile.txt to newfile.txt, use the command <b>‘mv myfile.txt newfile.txt’</b>.</p></ul>
+    <ul><p>To move a file, use the <b>‘mv’</b> command followed by the source and the destination. For example, to move myfile.txt to the Documents directory, use the command <b>‘mv myfile.txt Documents/’</b>.</p></ul>
+    <br>
+    <h3>Copying files: </h3>
+    <ul><p>To copy a file, use the <b>‘cp’</b> command followed by the source file and the destination. For example, to copy myfile.txt to Documents/myfile.txt, use the command <b>‘cp myfile.txt Documents/myfile.txt’</b>.</p></ul>
+    <br>
+    <h3>Deleting files: </h3>
+    <ul><p>To delete a file, use the <b>‘rm’</b> command followed by the file name. For example, <b>‘rm myfile.txt’</b>. Be careful when using this command, as it will permanently delete the file and it cannot be recovered. You can also use the <b>‘rmdir’</b> command to delete an empty directory.</p></ul>
+    <br>
+    <h3>Changing file permissions: </h3>
+    <ul><p>To change the permissions of a file, use the <b>‘chmod’</b> command followed by the permission code and the file name. For example, to make myfile.txt readable, writable, and executable by the owner, use the command <b>‘chmod 700 myfile.txt’</b>.</p></ul>
+    <br>
 </main>
 
 <br>
