@@ -18,7 +18,26 @@
     		<img id="" src="" alt="">
 		
 			<h1 id="about">About This Page</h1>
-			<p id="summary"></p>
+			<p id="summary">
+				Hello and welcome to ???insert name here??? Unix tutorial site, Unix is a powerful 
+				and popular operating system that has been around for decades. It is used by programmers, 
+				system administrators, and computer enthusiasts worldwide. Whether you're new to Unix or you're 
+				looking to brush up on your skills, this tutorial is here to help.
+				<br>
+				In this tutorial, we will cover the basics of Unix, including navigating the file 
+				system, working with files and directories, using the command-line interface, and 
+				more. We will also introduce some of the more advanced features of Unix, such as 
+				shell scripting and system administration.
+				<br>
+				Throughout this tutorial, you will learn how to use Unix to perform common tasks, 
+				automate repetitive tasks, and manage your system. By the end of the tutorial, you 
+				will have a solid foundation in Unix that will enable you to use it effectively in 
+				your day-to-day work.
+				<br>
+				Before we begin, it's important to note that Unix is a complex and powerful operating 
+				system that requires a certain level of technical proficiency. However, with practice 
+				and patience, you can master Unix and unlock its full potential. So, let's get started!
+			</p>
 			
 		</div>
 		
