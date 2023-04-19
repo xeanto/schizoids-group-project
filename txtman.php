@@ -44,6 +44,23 @@
 	</ul>
 </main>
 
+<br>
+
+<form>
+	<p>How can you toggle syntax highlighting on and off in Nano?</p>
+	  <input type="radio" id="txtmana1" name="txtman" value="1">
+	  <label for="1">Ctrl+X</label>
+	<br>
+	  <input type="radio" id="txtmana2" name="txtman" value="2">
+	  <label for="2">Ctrl+Y</label>
+	<br>
+	  <input type="radio" id="txtmana3" name="txtman" value="3">
+	  <label for="3">Ctrl+S</label>
+	<br>
+	  <input type="radio" id="txtmana4" name="txtman" value="4">
+	  <label for="4">Ctrl+H</label>
+	<br>  
+</form>
 <?php 
 	//assets/inc/footer.php needs to be finished
 	include($path . "assets/inc/footer.php");
