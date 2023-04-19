@@ -1,0 +1,143 @@
+Unix File System Navigation Quiz
+What command can you use to display the current working directory in the terminal?
+a. pwd
+b. ls
+c. cd
+d. mkdir
+Answer: a. pwd
+
+What command can you use to move up one level in the file system hierarchy?
+a. cd .
+b. cd ..
+c. cd /
+d. cd ~
+Answer: b. cd ..
+
+Unix File Manipulation Quiz
+What command can you use to copy a file from one directory to another?
+a. mv
+b. cp
+c. rm
+d. mkdir
+Answer: b. cp
+
+What command can you use to create a new empty file in the current directory?
+a. touch
+b. mkdir
+c. nano
+d. cat
+Answer: a. touch
+
+Unix Process Management Quiz
+What command can you use to display a list of all currently running processes?
+a. ps
+b. kill
+c. top
+d. grep
+Answer: a. ps
+
+What command can you use to stop a running process?
+a. ps
+b. kill
+c. top
+d. grep
+Answer: b. kill
+
+Unix Text Editors Quiz
+What is the name of the default text editor in Unix?
+a. Notepad
+b. Vim
+c. Nano
+d. Sublime Text
+Answer: c. Nano
+
+What command can you use to open a file in Nano?
+a. nano
+b. vim
+c. emacs
+d. nano filename
+Answer: d. nano filename
+
+Unix Environmental Variables Quiz
+What command can you use to set the value of an environmental variable?
+a. export
+b. set
+c. unset
+d. env
+Answer: a. export
+
+What is the name of the environmental variable that stores the current user's home directory?
+a. $HOME
+b. $PATH
+c. $USER
+d. $SHELL
+Answer: a. $HOME
+
+Unix Redirection and Piping Quiz
+What symbol can you use to redirect the output of a command to a file?
+a. >
+b. <
+c. |
+d. &
+Answer: a. >
+
+What symbol can you use to pipe the output of one command to the input of another?
+a. >
+b. <
+c. |
+d. &
+Answer: c. |
+
+Unix Permissions Quiz
+What command can you use to change the permissions of a file?
+a. chmod
+b. chown
+c. chgrp
+d. chmod +x
+Answer: a. chmod
+
+What does the "r" permission represent in Unix file permissions?
+a. Read permission
+b. Write permission
+c. Execute permission
+d. None of the above
+Answer: a. Read permission
+
+
+
+
+
+What command can be used to save changes to a file in Nano?
+a. Ctrl+S
+b. Ctrl+X
+c. Ctrl+O
+d. Ctrl+Q
+Answer: c. Ctrl+O
+
+Which key combination is used to search for text in Nano?
+a. Ctrl+S
+b. Ctrl+F
+c. Ctrl+R
+d. Ctrl+G
+Answer: b. Ctrl+F
+
+How can you toggle syntax highlighting on and off in Nano?
+a. Alt+X
+b. Alt+Y
+c. Alt+S
+d. Alt+H
+Answer: b. Alt+Y
+
+What command can be used to start spell-checking in Nano?
+a. Ctrl+S
+b. Ctrl+T
+c. Ctrl+C
+d. Ctrl+T
+Answer: d. Ctrl+T
+
+How can you access the Nano help menu?
+a. Ctrl+H
+b. Ctrl+X
+c. Ctrl+O
+d. Ctrl+Q
+Answer: b. Ctrl+X, and then pressing h for help.
