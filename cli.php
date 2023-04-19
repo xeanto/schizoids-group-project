@@ -2,6 +2,7 @@
 	$title = "Home";
 	$path = "./";
 	$secondCSSFileName = ""; //Insert filename here, if no second css page is needed leave like ""
+	$id = "unix-cli";
 	include($path . "assets/inc/header.php"); 
 	include($path . "assets/inc/nav.php");
 ?>
