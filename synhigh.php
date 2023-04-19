@@ -43,16 +43,16 @@
 
 <form>
 	<p>How can you toggle syntax highlighting on and off in Nano?</p>
-	  <input type="radio" id="basnava1" name="basnav" value="1">
+	  <input type="radio" id="synhigha1" name="synhigh" value="1">
 	  <label for="1">Ctrl+S</label>
 	<br>
-	  <input type="radio" id="basnava2" name="basnav" value="2">
+	  <input type="radio" id="synhigha2" name="synhigh" value="2">
 	  <label for="2">Ctrl+Y</label>
 	<br>
-	  <input type="radio" id="basnava3" name="basnav" value="3">
+	  <input type="radio" id="synhigha3" name="synhigh" value="3">
 	  <label for="3">Ctrl+X</label>
 	<br>
-	  <input type="radio" id="basnava4" name="basnav" value="4">
+	  <input type="radio" id="synhigha4" name="synhigh" value="4">
 	  <label for="4">Ctrl+H</label>
 	<br>  
 </form>
