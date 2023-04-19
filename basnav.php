@@ -41,6 +41,8 @@
 	</ul>
 </main>
 
+<br>
+
 <form>
 	<p>Which key combination is used to search for text in Nano?</p>
 	  <input type="radio" id="opsvfia1" name="opsvfi" value="1">
