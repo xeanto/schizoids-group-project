@@ -38,6 +38,25 @@
 		<li><p>To exit Nano, use the keyboard shortcut <b>Ctrl+X<b>. If you have made changes to the file, Nano will prompt you to save the changes before exiting.</p></li>
 	</ul>
 </main>
+a. Ctrl+S
+b. Ctrl+X
+c. Ctrl+O
+d. Ctrl+Q
+<form>
+	<p>What command can be used to save changes to a file in Nano?</p>
+	  <input type="radio" id="opsvfia1" name="opsvfi" value="1">
+	  <label for="1">Ctrl+S</label>
+	<br>
+	  <input type="radio" id="opsvfia2" name="opsvfi" value="2">
+	  <label for="2">Ctrl+X</label>
+	<br>
+	  <input type="radio" id="opsvfia3" name="opsvfi" value="3">
+	  <label for="3">Ctrl+O</label>
+	<br>
+	  <input type="radio" id="opsvfia4" name="opsvfi" value="4">
+	  <label for="4">Ctrl+Q</label>
+	<br>  
+</form>
 
 <?php 
 	//assets/inc/footer.php needs to be finished
