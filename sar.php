@@ -12,28 +12,28 @@
     <img id="" src="" alt="">
     <h3>Searching for text:</h3>
 	<ul>
-		<li><p>To search for text in Nano, use the keyboard shortcut <br>Ctrl+W</br>. This will open the search prompt at the bottom of the screen. Type the text you want to search for and press <br>Enter</br>. Nano will search for the text and highlight the first occurrence.</p></li>
+		<li><p>To search for text in Nano, use the keyboard shortcut <b>Ctrl+W</b>. This will open the search prompt at the bottom of the screen. Type the text you want to search for and press <b>Enter</b>. Nano will search for the text and highlight the first occurrence.</p></li>
         <br>
-        <li><p>To find the next occurrence of the search term, press <br>Ctrl+W</br> again. If you want to search for the same term again, press <br>Alt+W</br> to repeat the search.<p></li>
+        <li><p>To find the next occurrence of the search term, press <b>Ctrl+W</b> again. If you want to search for the same term again, press <b>Alt+W</b> to repeat the search.<p></li>
     </ul>
     <h3>Replacing text: </h3>
-		<li><p>To replace text in Nano, use the keyboard shortcut <br>Ctrl+\</br>. This will open the replace prompt at the bottom of the screen. Type the text you want to replace in the "Find" field and the replacement text in the "Replace with" field. Press <br>Enter</br> to start the replacement.</p></li>
+		<li><p>To replace text in Nano, use the keyboard shortcut <b>Ctrl+\</b>. This will open the replace prompt at the bottom of the screen. Type the text you want to replace in the "Find" field and the replacement text in the "Replace with" field. Press <b>Enter</b> to start the replacement.</p></li>
         <b>
-		<li><p>Nano will replace the first occurrence of the search term. If you want to replace all occurrences of the search term, press <br>A</br> for "All". If you want to replace occurrences one by one, press <br>Y</br> for "Yes".</p></li>
+		<li><p>Nano will replace the first occurrence of the search term. If you want to replace all occurrences of the search term, press <b>A</b> for "All". If you want to replace occurrences one by one, press <b>Y</b> for "Yes".</p></li>
 	</ul>
 
 	<h3>Cutting, copying, and pasting text: </h3>
 	<ul>
-		<li><p>To cut text in Nano, first use the arrow keys to move the cursor to the beginning of the text you want to cut. Then, use the <br>Ctrl+K</br> keyboard shortcut to delete the text. The text will be stored in Nano's internal buffer.</p></li>
+		<li><p>To cut text in Nano, first use the arrow keys to move the cursor to the beginning of the text you want to cut. Then, use the <b>Ctrl+K</b> keyboard shortcut to delete the text. The text will be stored in Nano's internal buffer.</p></li>
 		<br>
-		<li><p>To copy text in Nano, first use the arrow keys to move the cursor to the beginning of the text you want to copy. Then, use the <br>Alt+A</br> keyboard shortcut to mark the beginning of the text, and use the arrow keys to move the cursor to the end of the text. Then, use the <br>Ctrl+K</br> keyboard shortcut to copy the text to Nano's internal buffer.</p></li>
+		<li><p>To copy text in Nano, first use the arrow keys to move the cursor to the beginning of the text you want to copy. Then, use the <b>Alt+A</b> keyboard shortcut to mark the beginning of the text, and use the arrow keys to move the cursor to the end of the text. Then, use the <b>Ctrl+K</b> keyboard shortcut to copy the text to Nano's internal buffer.</p></li>
         <br>
-        <li><p>To paste text in Nano, use the <br>Ctrl+U</br> keyboard shortcut. The text in Nano's internal buffer will be inserted at the cursor position.</p></li>
+        <li><p>To paste text in Nano, use the <b>Ctrl+U</b> keyboard shortcut. The text in Nano's internal buffer will be inserted at the cursor position.</p></li>
 	</ul>
 
 	<h3>Using regular expressions: </h3>
 	<ul>
-		<li><p>Nano supports regular expressions for searching and replacing text. To use regular expressions, use the <br>‘-r’<br> option when opening a file. For example, to open a file for editing with regular expressions enabled, type:</p>
+		<li><p>Nano supports regular expressions for searching and replacing text. To use regular expressions, use the <b>‘-r’<b> option when opening a file. For example, to open a file for editing with regular expressions enabled, type:</p>
             <li><b>‘nano -r filename.txt‘</b></li>
         </li>
 		<br>

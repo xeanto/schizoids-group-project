@@ -20,9 +20,9 @@
 
 	<h3>Cutting, copying, and pasting text: </h3>
 	<ul>
-		<li><p>To cut text in Nano, first use the arrow keys to move the cursor to the beginning of the text you want to cut. Then, use the <br>Ctrl+K<br> keyboard shortcut to delete the text. The text will be stored in Nano's internal buffer.</p></li>
+		<li><p>To cut text in Nano, first use the arrow keys to move the cursor to the beginning of the text you want to cut. Then, use the <b>Ctrl+K</b> keyboard shortcut to delete the text. The text will be stored in Nano's internal buffer.</p></li>
 		<br>
-		<li><p>To copy text in Nano, first use the arrow keys to move the cursor to the beginning of the text you want to copy. Then, use the <br>Alt+A<br> keyboard shortcut to mark the beginning of the text, and use the arrow keys to move the cursor to the end of the text. Then, use the <br>Ctrl+K<br> keyboard shortcut to copy the text to Nano's internal buffer.</p></li>
+		<li><p>To copy text in Nano, first use the arrow keys to move the cursor to the beginning of the text you want to copy. Then, use the <b>Alt+A</b> keyboard shortcut to mark the beginning of the text, and use the arrow keys to move the cursor to the end of the text. Then, use the <b>Ctrl+K</b> keyboard shortcut to copy the text to Nano's internal buffer.</p></li>
         <br>
         <li><p>To paste text in Nano, use the <br>Ctrl+U<br> keyboard shortcut. The text in Nano's internal buffer will be inserted at the cursor position.</p></li>
 	</ul>

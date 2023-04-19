@@ -21,7 +21,7 @@
 	<ul>
 		<li><p>To move the cursor in Nano, use the arrow keys on your keyboard. The up arrow key moves the cursor up one line, the down arrow key moves the cursor down one line, the left arrow key moves the cursor one character to the left, and the right arrow key moves the cursor one character to the right.</p></li>
 		<br>
-		<li><p>You can also use the <br>Page Up<br> and <br>Page Down<br> keys to move the cursor up and down a page at a time.</p></li>
+		<li><p>You can also use the <b>Page Up</b> and <br>Page Down</b> keys to move the cursor up and down a page at a time.</p></li>
 	</ul>
 
 	<h3>Scrolling the screen: </h3>
