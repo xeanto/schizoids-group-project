@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
     // Execute the SQL statement
     if ($mysqli->query($sql) === TRUE) {
-      echo "<p class='green'>Comment saved successfully</p>";
+      echo "<p>Comment saved successfully</p>";
     } else {
       echo "Error: " . $sql . "<br>" . $mysqli->error;
     }
@@ -22,3 +22,12 @@ foreach ($results as $result) {
   }
 $mysqli->close();
 ?>
+  <form action="~iste240t51/assets/inc/comments.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" />
+    <br />
+    <label for="comment">Comment:</label>
+    <textarea name="comment" id="comment" cols="30" rows="1"></textarea>
+    <br />
+    <input type="submit" value="Submit" />
+  </form>
