@@ -30,16 +30,16 @@
 
 <form>
 	<p>How can you access the Nano help menu?</p>
-	  <input type="radio" id="spchka1" name="spchk" value="1">
+	  <input type="radio" id="hlpa1" name="hlp" value="1">
 	  <label for="1">Ctrl+G</label>
 	<br>
-	  <input type="radio" id="spchka2" name="spchk" value="2">
+	  <input type="radio" id="hlpa2" name="hlp" value="2">
 	  <label for="2">Ctrl+Y</label>
 	<br>
-	  <input type="radio" id="spchka3" name="spchk" value="3">
+	  <input type="radio" id="hlpa3" name="hlp" value="3">
 	  <label for="3">Ctrl+H</label>
 	<br>
-	  <input type="radio" id="spchka4" name="spchk" value="4">
+	  <input type="radio" id="hlpa4" name="hlp" value="4">
 	  <label for="4">Ctrl+C</label>
 	<br>  
 </form>
