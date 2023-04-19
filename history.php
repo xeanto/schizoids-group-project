@@ -25,6 +25,7 @@
 			
 	</div>
 
+
 <?php 
 	//assets/inc/footer.php needs to be finished
 	include($path . "assets/inc/footer.php");
