@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $comment = $_POST["comment"];
     $name = $_POST["name"];
     // Prepare the SQL statement to insert the comment into the `comments` table
-    $sql = "INSERT INTO comments(page_id, message, name) VALUES ('$id','$comment','$name')";
+    $sql = "INSERT INTO comments(page_id, content, name) VALUES ('$id','$comment','$name')";
   
     // Execute the SQL statement
     if ($mysqli->query($sql) === TRUE) {
@@ -22,7 +22,7 @@ foreach ($results as $result) {
   }
 $mysqli->close();
 ?>
-  <form action="/~iste240t51/assets/inc/comments.php" method="post">
+  <form method="post">
     <label for="name">Name:</label>
     <input type="text" name="name" id="name" />
     <br />
