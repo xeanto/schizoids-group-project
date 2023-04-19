@@ -38,6 +38,38 @@
 
 <br>
 
+<form>
+	<p>What command can you use to copy a file from one directory to another?</p>
+	  <input type="radio" id="fmana1" name="fman" value="1">
+	  <label for="1">mv</label>
+	<br>
+	  <input type="radio" id="fmana2" name="fman" value="2">
+	  <label for="2">cd</label>
+	<br>
+	  <input type="radio" id="fmana3" name="fman" value="3">
+	  <label for="3">cp</label>
+	<br>
+	  <input type="radio" id="fmana4" name="fman" value="4">
+	  <label for="4">mkdir</label>
+	
+    <br>  
+    
+    <p>What command can you use to create a new empty file in the current directory?</p>
+	  <input type="radio" id="fmana5" name="fman" value="5">
+	  <label for="5">cat</label>
+	<br>
+	  <input type="radio" id="fmana6" name="fman" value="6">
+	  <label for="6">mkdir</label>
+	<br>
+	  <input type="radio" id="fmana7" name="fman" value="7">
+	  <label for="7">touch</label>
+	<br>
+	  <input type="radio" id="fmana8" name="fman" value="8">
+	  <label for="8">nano</label>
+	<br>
+</form>
+
+
 <?php 
 	//assets/inc/footer.php needs to be finished
 	include($path . "assets/inc/footer.php");

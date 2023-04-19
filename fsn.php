@@ -41,7 +41,39 @@
     </ul>
 </main>
 
+
 <br>
+
+<form>
+	<p>What command can you use to display the current working directory in the terminal?</p>
+	  <input type="radio" id="fsna1" name="fsn" value="1">
+	  <label for="1">pwd</label>
+	<br>
+	  <input type="radio" id="fsna2" name="fsn" value="2">
+	  <label for="2">ls</label>
+	<br>
+	  <input type="radio" id="fsna3" name="fsn" value="3">
+	  <label for="3">cd</label>
+	<br>
+	  <input type="radio" id="fsna4" name="fsn" value="4">
+	  <label for="4">mkdir</label>
+	
+    <br>  
+    
+    <p>What command can you use to move up one level in the file system hierarchy?</p>
+	  <input type="radio" id="fsna5" name="fsn" value="5">
+	  <label for="5">cd .</label>
+	<br>
+	  <input type="radio" id="fsna6" name="fsn" value="6">
+	  <label for="6">cd ..</label>
+	<br>
+	  <input type="radio" id="fsna7" name="fsn" value="7">
+	  <label for="7">cd /</label>
+	<br>
+	  <input type="radio" id="fsna8" name="fsn" value="8">
+	  <label for="8">cd ~</label>
+	<br>
+</form>
 
 <?php 
 	//assets/inc/footer.php needs to be finished
