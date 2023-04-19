@@ -1,5 +1,5 @@
 <?php
-if isset($id) {
+if (isset($id)) {
   include($path . "assets/inc/comments.php");
 }
 ?>
