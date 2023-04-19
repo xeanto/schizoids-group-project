@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $sql = "SELECT * FROM comments LIMIT 5";
 $results = $mysqli->query($sql)->fetch_all();
 foreach ($results as $result) {
-    echo $result;
+    echo $result[2] . " " . $result[3] . " @ " . $result[4];
 }
 $mysqli->close();
 ?>
