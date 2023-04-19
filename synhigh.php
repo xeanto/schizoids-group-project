@@ -13,16 +13,12 @@
     <img id="" src="" alt="">
 
     <h3>Enable syntax highlighting: </h3>
-	<ul>
-		<li><p>To enable syntax highlighting in Nano, you need to open a file that contains code in a supported programming language. Then use the -Y option when opening a file. For example, to enable syntax highlighting for a file containing Python code, type:</p>
-            <li><b>nano -Y python example.py</b></li>
-            <p>This will open the file in Nano with syntax highlighting enabled for the Python programming language.</p>
-        </li>
-	</ul>
+	<ul><p>To enable syntax highlighting in Nano, you need to open a file that contains code in a supported programming language. Then use the -Y option when opening a file. For example, to enable syntax highlighting for a file containing Python code, type:</p></ul>
+        <br /><ul><b>nano -Y python example.py</b></ul>
+        <ul><p>This will open the file in Nano with syntax highlighting enabled for the Python programming language.</p></ul>
 
     <h3>Customize syntax highlighting:</h3>
-	<ul>
-        <li><p>Nano includes a set of default color schemes for syntax highlighting, but you can also customize the colors to suit your preferences. To customize the syntax highlighting colors, create a file named ".nanorc" in your home directory and add the following lines:</p>
+        <ul><p>Nano includes a set of default color schemes for syntax highlighting, but you can also customize the colors to suit your preferences. To customize the syntax highlighting colors, create a file named ".nanorc" in your home directory and add the following lines:</p></ul>
             <li>
                 syntax "python" "\.py$"
                 <br />
@@ -35,9 +31,7 @@
                 color brightyellow "\<(print|input)\>"
                 <br />
             </li>
-            <p>This example sets custom colors for various Python keywords and symbols. You can customize the colors for any programming language supported by Nano by replacing "python" with the name of the language, and adding color definitions for the specific keywords and symbols you want to highlight. Syntax highlighting can be a very useful tool for working with code in Nano. By highlighting different parts of the code in different colors, it can help you identify errors, understand the structure of the code, and generally make coding easier and more enjoyable.</p>
-        </li>
-    </ul>
+        <ul><p>This example sets custom colors for various Python keywords and symbols. You can customize the colors for any programming language supported by Nano by replacing "python" with the name of the language, and adding color definitions for the specific keywords and symbols you want to highlight. Syntax highlighting can be a very useful tool for working with code in Nano. By highlighting different parts of the code in different colors, it can help you identify errors, understand the structure of the code, and generally make coding easier and more enjoyable.</p></ul>
 </main>
 
 <br>
