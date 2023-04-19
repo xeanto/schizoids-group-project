@@ -46,6 +46,23 @@
 	</ul>
 </main>
 
+<br>
+
+<form>
+	<p>Which key combination is used to search for text in Nano?</p>
+	  <input type="radio" id="sara1" name="sar" value="1">
+	  <label for="1">Ctrl+S</label>
+	<br>
+	  <input type="radio" id="sara2" name="sar" value="2">
+	  <label for="2">Ctrl+T</label>
+	<br>
+	  <input type="radio" id="sara3" name="sar" value="3">
+	  <label for="3">Ctrl+C</label>
+	<br>
+	  <input type="radio" id="sara4" name="sar" value="4">
+	  <label for="4">Ctrl+G</label>
+	<br>  
+</form>
 <?php 
 	//assets/inc/footer.php needs to be finished
 	include($path . "assets/inc/footer.php");
