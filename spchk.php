@@ -8,7 +8,7 @@
 
 
 <main>
-    <h2>Syntax highlighting</h2>
+    <h2>Spell-checking</h2>
     <img id="" src="" alt="">
 
     <h3>Install the spell-checking tool:</h3>
