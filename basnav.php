@@ -41,6 +41,22 @@
 	</ul>
 </main>
 
+<form>
+	<p>Which key combination is used to search for text in Nano?</p>
+	  <input type="radio" id="opsvfia1" name="opsvfi" value="1">
+	  <label for="1">Ctrl+S</label>
+	<br>
+	  <input type="radio" id="opsvfia2" name="opsvfi" value="2">
+	  <label for="2">Ctrl+F</label>
+	<br>
+	  <input type="radio" id="opsvfia3" name="opsvfi" value="3">
+	  <label for="3">Ctrl+R</label>
+	<br>
+	  <input type="radio" id="opsvfia4" name="opsvfi" value="4">
+	  <label for="4">Ctrl+G</label>
+	<br>  
+</form>
+
 <?php 
 	//assets/inc/footer.php needs to be finished
 	include($path . "assets/inc/footer.php");
