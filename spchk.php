@@ -8,7 +8,7 @@
 
 
 <main>
-    <h2>Syntax highlighting</h2>
+    <h2>Spell-checking</h2>
     <img id="" src="" alt="">
 
     <h3>Install the spell-checking tool:</h3>
@@ -34,6 +34,23 @@
     </ul>
 </main>
 
+<br>
+
+<form>
+	<p>What command can be used to start spell-checking in Nano?</p>
+	  <input type="radio" id="spchka1" name="spchk" value="1">
+	  <label for="1">Ctrl+S</label>
+	<br>
+	  <input type="radio" id="spchka2" name="spchk" value="2">
+	  <label for="2">Ctrl+Y</label>
+	<br>
+	  <input type="radio" id="spchka3" name="spchk" value="3">
+	  <label for="3">Ctrl+T</label>
+	<br>
+	  <input type="radio" id="spchka4" name="spchk" value="4">
+	  <label for="4">Ctrl+C</label>
+	<br>  
+</form>
 <?php 
 	//assets/inc/footer.php needs to be finished
 	include($path . "assets/inc/footer.php");
