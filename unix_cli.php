@@ -10,10 +10,16 @@
 
 <h1 id="title">What is CLI?</h1>
 <img id="" src="" alt="">
-<p id="summary">
-Unix is an operating system that was created in the late 1960s and early 1970s by Bell Laboratories. It was designed to be a straightforward and effective system for running on minicomputers. Unix is known for its simplicity and flexibility, and it quickly became popular among academic institutions, research facilities, and computer scientists and programmers. One of the notable features of Unix is its command line interface (CLI), which allows users to communicate with the system using text commands instead of a graphical user interface (GUI). Unix has been updated over time, resulting in various versions and variations produced by different organizations and individuals. Some well-known Unix variations include Linux, Berkeley Software Distribution, and macOS. Today, Unix is used in many industries, including science, finance, and education.
-</p>
-	
+<p id="summary">The command line interface (CLI) is a text-based interface that allows you to interact with your Unix system using commands and scripts.</p>
+<h2 id="commands">Basic Commands</h2>
+<ul>
+	<li>ls: Lists the files and directories in the current directory.</li>
+	<li>cd: Changes the current directory to the specified directory.</li>
+	<li>mkdir: Creates a new directory.</li>
+	<li>rm: Removes a file or directory.</li>
+	<li>cp: Copies a file.  </li>
+	<li>mv: Moves or renames a file.</li>
+</ul>
 </div>
 
 <?php 
