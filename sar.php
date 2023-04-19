@@ -18,7 +18,7 @@
     </ul>
     <h3>Replacing text: </h3>
 		<li><p>To replace text in Nano, use the keyboard shortcut <b>Ctrl+\</b>. This will open the replace prompt at the bottom of the screen. Type the text you want to replace in the "Find" field and the replacement text in the "Replace with" field. Press <b>Enter</b> to start the replacement.</p></li>
-        <b>
+        <br>
 		<li><p>Nano will replace the first occurrence of the search term. If you want to replace all occurrences of the search term, press <b>A</b> for "All". If you want to replace occurrences one by one, press <b>Y</b> for "Yes".</p></li>
 	</ul>
 
@@ -33,7 +33,7 @@
 
 	<h3>Using regular expressions: </h3>
 	<ul>
-		<li><p>Nano supports regular expressions for searching and replacing text. To use regular expressions, use the <b>‘-r’<b> option when opening a file. For example, to open a file for editing with regular expressions enabled, type:</p>
+		<li><p>Nano supports regular expressions for searching and replacing text. To use regular expressions, use the <b>‘-r’</b> option when opening a file. For example, to open a file for editing with regular expressions enabled, type:</p>
             <li><b>‘nano -r filename.txt‘</b></li>
         </li>
 		<br>
