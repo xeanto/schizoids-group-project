@@ -51,6 +51,7 @@
 	  <label for="4">Ctrl+C</label>
 	<br>  
 </form>
+
 <?php 
 	//assets/inc/footer.php needs to be finished
 	include($path . "assets/inc/footer.php");
