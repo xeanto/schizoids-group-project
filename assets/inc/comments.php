@@ -1,3 +1,12 @@
+<form method="post">
+  <label for="name">Name:</label>
+  <input type="text" name="name" id="name" />
+  <br />
+  <label for="comment">Comment:</label>
+  <textarea name="comment" id="comment" cols="30" rows="1"></textarea>
+  <br />
+  <input type="submit" value="Submit" />
+</form>
 <?php
 include('/home/iste240t51/Sites/pinclude/dbCon.php');
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -23,12 +32,3 @@ foreach ($results as $result) {
 }
 $mysqli->close();
 ?>
-  <form method="post">
-    <label for="name">Name:</label>
-    <input type="text" name="name" id="name" />
-    <br />
-    <label for="comment">Comment:</label>
-    <textarea name="comment" id="comment" cols="30" rows="1"></textarea>
-    <br />
-    <input type="submit" value="Submit" />
-  </form>
