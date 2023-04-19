@@ -5,20 +5,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $comment = $_POST["comment"];
     $name = $_POST["name"];
     // Prepare the SQL statement to insert the comment into the `comments` table
-    $sql = "INSERT INTO comments(message, name) VALUES ('$comment','$name')";
+    $sql = "INSERT INTO comments(page_id, content, name) VALUES ('$id','$comment','$name')";
   
     // Execute the SQL statement
     if ($mysqli->query($sql) === TRUE) {
-      echo "<p class='green'>Comment saved successfully</p>";
+      echo "<p>Comment saved successfully</p>";
     } else {
       echo "Error: " . $sql . "<br>" . $mysqli->error;
     }
-  } else {
+  }
 $sql = "SELECT * FROM comments LIMIT 5";
 $results = $mysqli->query($sql)->fetch_all();
 foreach ($results as $result) {
-    echo $result;
+    echo $result[2] . " " . $result[3] . " @ " . $result[4];
 }
-  }
 $mysqli->close();
 ?>
+  <form method="post">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" />
+    <br />
+    <label for="comment">Comment:</label>
+    <textarea name="comment" id="comment" cols="30" rows="1"></textarea>
+    <br />
+    <input type="submit" value="Submit" />
+  </form>
