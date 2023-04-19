@@ -13,13 +13,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
       echo "Error: " . $sql . "<br>" . $mysqli->error;
     }
-  } else {
+  }
 $sql = "SELECT * FROM comments LIMIT 5";
 $results = $mysqli->query($sql)->fetch_all();
 foreach ($results as $result) {
     echo $result;
 }
-  }
 $mysqli->close();
 ?>
   <form method="post">
