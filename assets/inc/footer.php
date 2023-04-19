@@ -1,5 +1,7 @@
 <?php
-include($path . "assets/inc/comments.php");
+if isset($id) {
+  include($path . "assets/inc/comments.php");
+}
 ?>
 <footer>
         <!--Contact info-->
