@@ -1,4 +1,5 @@
-<form method="post">
+<hr>
+<form class="comment_padding" method="post">
   <label for="name">Name:</label>
   <input type="text" name="name" id="name" />
   <br />
@@ -27,8 +28,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 $sql = "SELECT * FROM comments WHERE page_id = '$id' LIMIT 5";
 $results = $mysqli->query($sql)->fetch_all();
+echo "<div class='comment_box'>";
 foreach ($results as $result) {
     echo $result[2] . " " . $result[3] . " @ " . $result[4] . '<br>';
 }
+echo "</div>"
 $mysqli->close();
 ?>
