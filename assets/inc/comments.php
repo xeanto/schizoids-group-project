@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = $mysqli->prepare("INSERT INTO comments(page_id, content, name) VALUES (?, ?, ?)");
     $sql->bind_param("sss",$id, $comment, $name);
     // Execute the SQL statement
-    if ($sql->execute(); === TRUE) {
+    if ($sql->execute() === TRUE) {
       echo "<p>Comment saved successfully</p>";
     } else {
       echo "Error: " . $sql . "<br>" . $mysqli->error;
