@@ -12,31 +12,31 @@
 }
 
 #title{
-	background-color: beige;
+	background-color: #DEECED;
 	text-align:center;
 }
 
 /* center titles and paragraphs */
 h4{
-	text-align:center;
+	text-align:left;
 }
 
 p{
-	text-align:center;
+	text-align:left;
 }
 
 /* links */
 
 a{
-  color: black; 
-  background-color: lightyellow; 
+  color: #00A0B6;
+  background-color: #DEECED;
   text-decoration: none;
 
 }
 
 a:hover {
   color: red;
-  background-color: lightyellow;
+  background-color: #DEECED;
   text-decoration: none;
 
 }
@@ -65,7 +65,7 @@ body{
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: #2C393B;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -75,7 +75,7 @@ body{
 
 .active {
   background-color: #04AA6D;
-  color: white;
+  color: #DEECED;
 }
 
 .topnav .icon {
@@ -91,7 +91,7 @@ body{
   font-size: 17px; 
   border: none;
   outline: none;
-  color: black;
+  color: #2C393B;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -101,7 +101,7 @@ body{
 .Unix-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #DEECED;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -109,7 +109,7 @@ body{
 
 .Unix-content a {
   float: none;
-  color: black;
+  color: #2C393B;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -118,11 +118,11 @@ body{
 
 .topnav a:hover, .Unix:hover .Unixbtn {
   background-color: #6E878B;
-  color: white;
+  color: #DEECED;
 }
 
 .Unix-content a:hover {
-  background-color: #ddd;
+  background-color: #DEECED;
   color: #2C393B;
 }
 
@@ -149,7 +149,7 @@ body{
 .Nano-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #DEECED;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -165,25 +165,18 @@ body{
 }
 
 .topnav a:hover, .Nano:hover .Nanobtn {
-  background-color: #555;
-  color: white;
+  background-color: #2C393B;
+  color: #DEECED;
 }
 
 .Nano-content a:hover {
-  background-color: #555;
-  color: white;
+  background-color: #2C393B;
+  color: #DEECED;
 }
 
 .Nano:hover .Nano-content {
   display: block;
 }
-
-
-
-
-
-
-
 
 
 
@@ -196,7 +189,7 @@ body{
   font-size: 17px; 
   border: none;
   outline: none;
-  color: black;
+  color: #2C393B;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -206,7 +199,7 @@ body{
 .Museums-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #DEECED;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -214,7 +207,7 @@ body{
 
 .Museums-content a {
   float: none;
-  color: black;
+  color: #2C393B;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -222,13 +215,13 @@ body{
 }
 
 .topnav a:hover, .Museums:hover .Museumsbtn {
-  background-color: #555;
-  color: white;
+  background-color: #6E878B;
+  color: #DEECED;
 }
 
 .Museums-content a:hover {
-  background-color: #555;
-  color: white;
+  background-color: #6E878B;
+  color: #DEECED;
 }
 
 .Museums:hover .Museums-content {
