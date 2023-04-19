@@ -26,8 +26,14 @@
 
 	<h3>Scrolling the screen: </h3>
 	<ul>
-		<li><p>To scroll the screen in Nano, use the Ctrl key in combination with the arrow keys. The Ctrl key and Up arrow key scrolls the screen up one line, the Ctrl key and Down arrow key scrolls the screen down one line, the Ctrlkey and Left arrow key scrolls the screen left, and the Ctrl key and Right arrow key scrolls the screen right.</p></li>
+		<li><p>To scroll the screen in Nano, use the <b>Ctrl<b> key in combination with the arrow keys. The <b>Ctrl<b> key and <b>Up<b> arrow key scrolls the screen up one line, the <b>Ctrl<b> key and <b>Down<b> arrow key scrolls the screen down one line, the <b>Ctrl<b> key and <b>Left<b> arrow key scrolls the screen left, and the <b>Ctrl<b> key and <b>Right<b> arrow key scrolls the screen right.</p></li>
 		<br>
+	</ul>
+    <h3>Searching for text: </h3>
+	<ul>
+		<li><p>To search for text in Nano, use the keyboard shortcut <b>Ctrl+W<b>. This will open the search prompt, where you can enter the text you want to search for. Press <b>Enter<b> to start the search.</p></li>
+		<br>
+        <li><p>To search for the next occurrence of the text, use the keyboard shortcut <b>Ctrl+W<b> again.</p></li>
 	</ul>
 	<h3>Exiting Nano: </h3>
 	<ul>
