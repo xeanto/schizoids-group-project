@@ -12,7 +12,6 @@
 
     <!-- UNIQUE INFO HERE -->
     
-		<!--information NYC places-->
     	<div id="top">
 
     		<h1 id="title">Unix Survival Guide</h1>
