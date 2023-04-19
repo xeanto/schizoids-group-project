@@ -6,7 +6,7 @@
 
   			<a href="index.php">Home</a>
 
-            <a href="hist.php">History</a>
+            <a href="history.php">History</a>
 
   			<div class="Unix">
     			<button class="Unixbtn">Unix</button>
