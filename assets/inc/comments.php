@@ -32,6 +32,6 @@ echo "<div class='comment_box'>";
 foreach ($results as $result) {
     echo $result[2] . " " . $result[3] . " @ " . $result[4] . '<br>';
 }
-echo "</div>"
+echo "</div>";
 $mysqli->close();
 ?>
