@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       echo "Error: " . $sql . "<br>" . $mysqli->error;
     }
   }
-$sql = "SELECT * FROM comments LIMIT 5";
+$sql = "SELECT * FROM comments WHERE page_id = '$id' LIMIT 5";
 $results = $mysqli->query($sql)->fetch_all();
 foreach ($results as $result) {
     echo $result[2] . " " . $result[3] . " @ " . $result[4] . '<br>';
