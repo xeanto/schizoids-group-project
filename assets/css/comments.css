@@ -1,0 +1,8 @@
+.comment_padding {
+    padding-top: 1rem;
+}
+
+.comment_box {
+    display: flex;
+    justify-content: center;
+}
