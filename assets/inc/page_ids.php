@@ -1,0 +1,20 @@
+<?php
+$page_arr = array(
+    "history",
+    "unix-cli",
+    "unix-fsn",
+    "unix-fm",
+    "unix-pm",
+    "unix-te",
+    "unix-ev",
+    "unix-rap",
+    "unix-p",
+    "nano-oasf",
+    "nano-bn",
+    "nano-tm",
+    "nano-sar",
+    "nano-sh",
+    "nano-sc",
+    "nano-h"
+);
+?>
