@@ -38,31 +38,31 @@
 <h2>Unix Redirection and Piping Quiz</h2>
 <form>
 	<p>What symbol can you use to redirect the output of a command to a file?</p>
-	  <input type="radio" id="fmana1" name="fman" value="1">
+	  <input type="radio" id="rada1" name="rad" value="1">
 	  <label for="1">></label>
 	<br>
-	  <input type="radio" id="fmana2" name="fman" value="2">
+	  <input type="radio" id="rada2" name="rad" value="2">
 	  <label for="2"><</label>
 	<br>
-	  <input type="radio" id="fmana3" name="fman" value="3">
+	  <input type="radio" id="rada3" name="rad" value="3">
 	  <label for="3">|</label>
 	<br>
-	  <input type="radio" id="fmana4" name="fman" value="4">
+	  <input type="radio" id="rada4" name="rad" value="4">
 	  <label for="4">&</label>
 	
     <br>  
     
     <p>What symbol can you use to pipe the output of one command to the input of another?</p>
-	  <input type="radio" id="fmana5" name="fman" value="5">
+	  <input type="radio" id="rada5" name="rad" value="5">
 	  <label for="5">></label>
 	<br>
-	  <input type="radio" id="fmana6" name="fman" value="6">
+	  <input type="radio" id="rada6" name="rad" value="6">
 	  <label for="6"><</label>
 	<br>
-	  <input type="radio" id="fmana7" name="fman" value="7">
+	  <input type="radio" id="rada7" name="rad" value="7">
 	  <label for="7">|</label>
 	<br>
-	  <input type="radio" id="fmana8" name="fman" value="8">
+	  <input type="radio" id="rada8" name="rad" value="8">
 	  <label for="8">&</label>
 	<br>
 </form>

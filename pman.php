@@ -39,31 +39,31 @@
 <h2>Process management Quiz</h2>
 <form>
 	<p>What command can you use to display a list of all currently running processes?</p>
-	  <input type="radio" id="txtmana1" name="pman" value="1">
+	  <input type="radio" id="pmana1" name="pman" value="1">
 	  <label for="1">ps</label>
 	<br>
-	  <input type="radio" id="txtmana2" name="pman" value="2">
+	  <input type="radio" id="pmana2" name="pman" value="2">
 	  <label for="2">kill</label>
 	<br>
-	  <input type="radio" id="txtmana3" name="pman" value="3">
+	  <input type="radio" id="pmana3" name="pman" value="3">
 	  <label for="3">top</label>
 	<br>
-	  <input type="radio" id="txtmana4" name="pman" value="4">
+	  <input type="radio" id="pmana4" name="pman" value="4">
 	  <label for="4">grep</label>
 
 	<br>  
 
     <p>What command can you use to stop a running process?</p>
-	  <input type="radio" id="txtmana1" name="pman" value="5">
+	  <input type="radio" id="pmana1" name="pman" value="5">
 	  <label for="5">ps</label>
 	<br>
-	  <input type="radio" id="txtmana2" name="pman" value="6">
+	  <input type="radio" id="pmana2" name="pman" value="6">
 	  <label for="6">kill</label>
 	<br>
-	  <input type="radio" id="txtmana3" name="pman" value="7">
+	  <input type="radio" id="pmana3" name="pman" value="7">
 	  <label for="7">top</label>
 	<br>
-	  <input type="radio" id="txtmana4" name="pman" value="8">
+	  <input type="radio" id="pmana4" name="pman" value="8">
 	  <label for="8">grep</label>
 </form>
 

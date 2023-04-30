@@ -46,31 +46,31 @@
 <h2>Unix Permissions Quiz</h2>
 <form>
 	<p>What command can you use to change the permissions of a file?</p>
-	  <input type="radio" id="fmana1" name="fman" value="1">
+	  <input type="radio" id="permsa1" name="perms" value="1">
 	  <label for="1">chmod</label>
 	<br>
-	  <input type="radio" id="fmana2" name="fman" value="2">
+	  <input type="radio" id="permsa2" name="perms" value="2">
 	  <label for="2">chown</label>
 	<br>
-	  <input type="radio" id="fmana3" name="fman" value="3">
+	  <input type="radio" id="permsa3" name="perms" value="3">
 	  <label for="3">chgrp</label>
 	<br>
-	  <input type="radio" id="fmana4" name="fman" value="4">
+	  <input type="radio" id="permsa4" name="perms" value="4">
 	  <label for="4">chmod +x</label>
 	
     <br>  
     
     <p>What does the "r" permission represent in Unix file permissions?</p>
-	  <input type="radio" id="fmana5" name="fman" value="5">
+	  <input type="radio" id="permsa5" name="perms" value="5">
 	  <label for="5">Read permission</label>
 	<br>
-	  <input type="radio" id="fmana6" name="fman" value="6">
+	  <input type="radio" id="permsa6" name="perms" value="6">
 	  <label for="6">Write permission</label>
 	<br>
-	  <input type="radio" id="fmana7" name="fman" value="7">
+	  <input type="radio" id="permsa7" name="perms" value="7">
 	  <label for="7">Execute permission</label>
 	<br>
-	  <input type="radio" id="fmana8" name="fman" value="8">
+	  <input type="radio" id="permsa8" name="perms" value="8">
 	  <label for="8">None of the above</label>
 	<br>
 </form>
