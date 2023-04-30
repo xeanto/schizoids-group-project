@@ -25,7 +25,8 @@
 
 <br>
 
-<div class="Quiz">
+<h2>CLI Quiz</h2>
+<form>
 	<p>What command can you use to display the current working directory in the terminal?</p>
 	<label for="1" id="clia1Label">  
 		<input type="radio" id="clia1" name="cli" value="1" onclick="answerCorrectly(this,'clia1')">

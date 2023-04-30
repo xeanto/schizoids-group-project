@@ -30,6 +30,7 @@
 
 <br>
 
+<h2>Spell-checkig Quiz</h2>
 <form>
 	<p>What command can be used to start spell-checking in Nano?</p>
 	  <input type="radio" id="spchka1" name="spchk" value="1">

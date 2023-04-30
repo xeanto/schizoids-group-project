@@ -36,6 +36,7 @@
 
 <br>
 
+<h3>Syntax Highlighting Quiz</h3>
 <form>
 	<p>How can you toggle syntax highlighting on and off in Nano?</p>
 	  <input type="radio" id="synhigha1" name="synhigh" value="1">
