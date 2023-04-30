@@ -26,35 +26,45 @@
 <br>
 
 <h2>Text Editors Quiz</h2>
-<form>
+<div class="Quiz">
 	<p>What is the name of the default text editor in Unix?</p>
-	  <input type="radio" id="txtmana1" name="pman" value="1">
-	  <label for="1">notepad</label>
+	<label for="1" id="txtmana1Label">
+	  <input type="radio" id="txtmana1" name="pman" value="1" onclick="answerCorrectly(this,'txtmana3')">
+	  notepad</label>
 	<br>
-	  <input type="radio" id="txtmana2" name="pman" value="2">
-	  <label for="2">Vim</label>
+	<label for="2" id="txtmana2Label">
+	  <input type="radio" id="txtmana2" name="pman" value="2" onclick="answerCorrectly(this,'txtmana3')">
+	  Vim</label>
 	<br>
-	  <input type="radio" id="txtmana3" name="pman" value="3">
-	  <label for="3">Nano</label>
+	<label for="3" id="txtmana3Label">
+	  <input type="radio" id="txtmana3" name="pman" value="3" onclick="answerCorrectly(this,'txtmana3')">
+	  Nano</label>
 	<br>
-	  <input type="radio" id="txtmana4" name="pman" value="4">
-	  <label for="4">Sublime Text</label>
+	<label for="4" id="txtmana4Label">
+	  <input type="radio" id="txtmana4" name="pman" value="4" onclick="answerCorrectly(this,'txtmana3')">
+	  Sublime Text</label>
 
 	<br>  
+</div>
 
+<div class="Quiz">
     <p>What command can you use to open a file in Nano?</p>
-	  <input type="radio" id="txtmana1" name="pman" value="5">
-	  <label for="5">Nano</label>
+	<label for="5" id="txtmana5Label">  
+	<input type="radio" id="txtmana5" name="pman" value="5" onclick="answerCorrectly(this,'txtmana8')">
+	  Nano</label>
 	<br>
-	  <input type="radio" id="txtmana2" name="pman" value="6">
-	  <label for="6">Vim</label>
+	<label for="6" id="txtmana6Label">
+	  <input type="radio" id="txtmana6" name="pman" value="6" onclick="answerCorrectly(this,'txtmana8')">
+	  Vim</label>
 	<br>
-	  <input type="radio" id="txtmana3" name="pman" value="7">
-	  <label for="7">emacs</label>
+	<label for="7" id="txtmana7Label">
+	  <input type="radio" id="txtmana7" name="pman" value="7" onclick="answerCorrectly(this,'txtmana8')">
+	  emacs</label>
 	<br>
-	  <input type="radio" id="txtmana4" name="pman" value="8">
-	  <label for="8">Nano "filename"</label>
-</form>
+	<label for="8" id="txtmana8Label">
+	  <input type="radio" id="txtmana8" name="pman" value="8" onclick="answerCorrectly(this,'txtmana8')">
+	  Nano "filename"</label>
+</div>
 
 <?php 
 	//assets/inc/footer.php needs to be finished

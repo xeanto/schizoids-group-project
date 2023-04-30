@@ -50,21 +50,25 @@
 <br>
 
 <h2>Search and Replace Quiz</h2>
-<form>
-	<p>Which key combination is used to search for text in Nano?</p>
-	  <input type="radio" id="sara1" name="sar" value="1">
-	  <label for="1">Ctrl+S</label>
+<div class="Quiz">
+	<p>Which key combination is used to search and replace text in Nano?</p>
+	<label for="1" id="sara1Label">
+	  <input type="radio" id="sara1" name="sar" value="1" onclick="answerCorrectly(this,'sara4')">
+	  Ctrl+S</label>
 	<br>
-	  <input type="radio" id="sara2" name="sar" value="2">
-	  <label for="2">Ctrl+T</label>
+	<label for="2" id="sara2Label">
+	  <input type="radio" id="sara2" name="sar" value="2" onclick="answerCorrectly(this,'sara4')">
+	  Ctrl+T</label>
 	<br>
-	  <input type="radio" id="sara3" name="sar" value="3">
-	  <label for="3">Ctrl+C</label>
+	<label for="3" id="sara3Label">
+	  <input type="radio" id="sara3" name="sar" value="3" onclick="answerCorrectly(this,'sara4')">
+	  Ctrl+C</label>
 	<br>
-	  <input type="radio" id="sara4" name="sar" value="4">
-	  <label for="4">Ctrl+G</label>
+	<label for="4" id="sara4Label">
+	  <input type="radio" id="sara4" name="sar" value="4" onclick="answerCorrectly(this,'sara4')">
+	  Ctrl+/</label>
 	<br>  
-</form>
+</div>
 <?php 
 	//assets/inc/footer.php needs to be finished
 	include($path . "assets/inc/footer.php");

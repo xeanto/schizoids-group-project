@@ -45,36 +45,46 @@
 <br>
 
 <h2>File System Navigation Quiz</h2>
-<form>
+<div class="Quiz">
 	<p>What command can you use to display the current working directory in the terminal?</p>
-	  <input type="radio" id="fsna1" name="fsn" value="1">
-	  <label for="1">pwd</label>
+	<label for="1" id="fsna1Label">  
+	<input type="radio" id="fsna1" name="fsn" value="1" onclick="answerCorrectly(this,'fsna1')">
+	  pwd</label>
 	<br>
-	  <input type="radio" id="fsna2" name="fsn" value="2">
-	  <label for="2">ls</label>
+		<label for="2" id="fsna2Label">
+	  <input type="radio" id="fsna2" name="fsn" value="2" onclick="answerCorrectly(this,'fsna1')">
+	  ls</label>
 	<br>
-	  <input type="radio" id="fsna3" name="fsn" value="3">
-	  <label for="3">cd</label>
+	<label for="3" id="fsna3Label">
+	  <input type="radio" id="fsna3" name="fsn" value="3" onclick="answerCorrectly(this,'fsna1')">
+	  cd</label>
 	<br>
-	  <input type="radio" id="fsna4" name="fsn" value="4">
-	  <label for="4">mkdir</label>
+	<label for="4" id="fsna4Label">
+	  <input type="radio" id="fsna4" name="fsn" value="4" onclick="answerCorrectly(this,'fsna1')">
+	  mkdir</label>
 	
     <br>  
+</div>
     
+<div class="Quiz">
     <p>What command can you use to move up one level in the file system hierarchy?</p>
-	  <input type="radio" id="fsna5" name="fsn" value="5">
-	  <label for="5">cd .</label>
+	<label for="5" id="fsna5Label">  
+	<input type="radio" id="fsna5" name="fsn" value="5" onclick="answerCorrectly(this,'fsna6')">
+	  cd .</label>
 	<br>
-	  <input type="radio" id="fsna6" name="fsn" value="6">
-	  <label for="6">cd ..</label>
+	<label for="6" id="fsna6Label">
+	  <input type="radio" id="fsna6" name="fsn" value="6" onclick="answerCorrectly(this,'fsna6')">
+	  cd ..</label>
 	<br>
-	  <input type="radio" id="fsna7" name="fsn" value="7">
-	  <label for="7">cd /</label>
+	<label for="7" id="fsna7Label">
+	  <input type="radio" id="fsna7" name="fsn" value="7" onclick="answerCorrectly(this,'fsna6')">
+	  cd /</label>
 	<br>
-	  <input type="radio" id="fsna8" name="fsn" value="8">
-	  <label for="8">cd ~</label>
+	<label for="8" id="fsna8Label">
+	  <input type="radio" id="fsna8" name="fsn" value="8" onclick="answerCorrectly(this,'fsna6')">
+	  cd ~</label>
 	<br>
-</form>
+</div>
 
 <?php 
 	//assets/inc/footer.php needs to be finished
