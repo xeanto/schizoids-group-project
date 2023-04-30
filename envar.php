@@ -32,11 +32,6 @@
 <br>
 
 <h2>Environmental variables Quiz</h2>
-
-a. $HOME
-b. $PATH
-c. $USER
-d. $SHELL
 <form>
 	<p>What command can you use to set the value of an environmental variable?</p>
 	  <input type="radio" id="fmana1" name="fman" value="1">
