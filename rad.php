@@ -35,7 +35,37 @@
 </main>
 
 <br>
-
+<h2>Unix Redirection and Piping Quiz</h2>
+<form>
+	<p>What symbol can you use to redirect the output of a command to a file?</p>
+	  <input type="radio" id="rada1" name="rad" value="1">
+	  <label for="1">></label>
+	<br>
+	  <input type="radio" id="rada2" name="rad" value="2">
+	  <label for="2"><</label>
+	<br>
+	  <input type="radio" id="rada3" name="rad" value="3">
+	  <label for="3">|</label>
+	<br>
+	  <input type="radio" id="rada4" name="rad" value="4">
+	  <label for="4">&</label>
+	
+    <br>  
+    
+    <p>What symbol can you use to pipe the output of one command to the input of another?</p>
+	  <input type="radio" id="rada5" name="rad" value="5">
+	  <label for="5">></label>
+	<br>
+	  <input type="radio" id="rada6" name="rad" value="6">
+	  <label for="6"><</label>
+	<br>
+	  <input type="radio" id="rada7" name="rad" value="7">
+	  <label for="7">|</label>
+	<br>
+	  <input type="radio" id="rada8" name="rad" value="8">
+	  <label for="8">&</label>
+	<br>
+</form>
 
 <?php 
 	//assets/inc/footer.php needs to be finished

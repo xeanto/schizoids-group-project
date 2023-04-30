@@ -28,20 +28,20 @@
 <h2>Text Editors Quiz</h2>
 <div class="Quiz">
 	<p>What is the name of the default text editor in Unix?</p>
-	<label for="1" id="txtmana1Label">
-	  <input type="radio" id="txtmana1" name="pman" value="1" onclick="answerCorrectly(this,'txtmana3')">
+	<label for="1" id="txteda1Label">
+	  <input type="radio" id="txteda11" name="txted" value="1" onclick="answerCorrectly(this,'txteda3')">
 	  notepad</label>
 	<br>
-	<label for="2" id="txtmana2Label">
-	  <input type="radio" id="txtmana2" name="pman" value="2" onclick="answerCorrectly(this,'txtmana3')">
+	<label for="2" id="txteda2Label">
+	  <input type="radio" id="txteda12" name="txted" value="2" onclick="answerCorrectly(this,'txteda3')">
 	  Vim</label>
 	<br>
-	<label for="3" id="txtmana3Label">
-	  <input type="radio" id="txtmana3" name="pman" value="3" onclick="answerCorrectly(this,'txtmana3')">
+	<label for="3" id="txteda3Label">
+	  <input type="radio" id="txteda3" name="txted" value="3" onclick="answerCorrectly(this,'txteda3')">
 	  Nano</label>
 	<br>
-	<label for="4" id="txtmana4Label">
-	  <input type="radio" id="txtmana4" name="pman" value="4" onclick="answerCorrectly(this,'txtmana3')">
+	<label for="4" id="txteda4Label">
+	  <input type="radio" id="txteda4" name="txted" value="4" onclick="answerCorrectly(this,'txteda3')">
 	  Sublime Text</label>
 
 	<br>  
@@ -49,20 +49,20 @@
 
 <div class="Quiz">
     <p>What command can you use to open a file in Nano?</p>
-	<label for="5" id="txtmana5Label">  
-	<input type="radio" id="txtmana5" name="pman" value="5" onclick="answerCorrectly(this,'txtmana8')">
+	<label for="5" id="txteda5Label">  
+	<input type="radio" id="txteda5" name="txted" value="5" onclick="answerCorrectly(this,'txteda8')">
 	  Nano</label>
 	<br>
-	<label for="6" id="txtmana6Label">
-	  <input type="radio" id="txtmana6" name="pman" value="6" onclick="answerCorrectly(this,'txtmana8')">
+	<label for="6" id="txteda6Label">
+	  <input type="radio" id="txteda6" name="txted" value="6" onclick="answerCorrectly(this,'txteda8')">
 	  Vim</label>
 	<br>
-	<label for="7" id="txtmana7Label">
-	  <input type="radio" id="txtmana7" name="pman" value="7" onclick="answerCorrectly(this,'txtmana8')">
+	<label for="7" id="txteda7Label">
+	  <input type="radio" id="txteda7" name="txted" value="7" onclick="answerCorrectly(this,'txteda8')">
 	  emacs</label>
 	<br>
-	<label for="8" id="txtmana8Label">
-	  <input type="radio" id="txtmana8" name="pman" value="8" onclick="answerCorrectly(this,'txtmana8')">
+	<label for="8" id="txteda8Label">
+	  <input type="radio" id="txteda8" name="txted" value="8" onclick="answerCorrectly(this,'txteda8')">
 	  Nano "filename"</label>
 </div>
 
