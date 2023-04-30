@@ -66,6 +66,7 @@
 	  <input type="radio" id="txtmana4" name="pman" value="8">
 	  <label for="8">grep</label>
 </form>
+
 <?php 
 	//assets/inc/footer.php needs to be finished
 	include($path . "assets/inc/footer.php");

@@ -25,6 +25,36 @@
 
 <br>
 
+<h2>Text Editors Quiz</h2>
+<form>
+	<p>What is the name of the default text editor in Unix?</p>
+	  <input type="radio" id="txtmana1" name="pman" value="1">
+	  <label for="1">notepad</label>
+	<br>
+	  <input type="radio" id="txtmana2" name="pman" value="2">
+	  <label for="2">Vim</label>
+	<br>
+	  <input type="radio" id="txtmana3" name="pman" value="3">
+	  <label for="3">Nano</label>
+	<br>
+	  <input type="radio" id="txtmana4" name="pman" value="4">
+	  <label for="4">Sublime Text</label>
+
+	<br>  
+
+    <p>What command can you use to open a file in Nano?</p>
+	  <input type="radio" id="txtmana1" name="pman" value="5">
+	  <label for="5">Nano</label>
+	<br>
+	  <input type="radio" id="txtmana2" name="pman" value="6">
+	  <label for="6">Vim</label>
+	<br>
+	  <input type="radio" id="txtmana3" name="pman" value="7">
+	  <label for="7">emacs</label>
+	<br>
+	  <input type="radio" id="txtmana4" name="pman" value="8">
+	  <label for="8">Nano "filename"</label>
+</form>
 
 <?php 
 	//assets/inc/footer.php needs to be finished
