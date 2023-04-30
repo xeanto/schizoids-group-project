@@ -45,6 +45,7 @@
 <br>
 
 <form>
+	<h2><b>Basic Navigation Quiz</b></h2>
 	<p>Which key combination is used to search for text in Nano?</p>
 	  <input type="radio" id="basnava1" name="basnav" value="1">
 	  <label for="1">Ctrl+S</label>
