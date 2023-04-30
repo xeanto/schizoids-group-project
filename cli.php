@@ -66,6 +66,7 @@
 	  cd ~</label>
 	<br>
 </div>
+</form>
 
 <?php 
 	//assets/inc/footer.php needs to be finished
