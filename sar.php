@@ -49,6 +49,7 @@
 
 <br>
 
+<h2>Search and Replace Quiz</h2>
 <form>
 	<p>Which key combination is used to search for text in Nano?</p>
 	  <input type="radio" id="sara1" name="sar" value="1">

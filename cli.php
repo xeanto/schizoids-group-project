@@ -25,6 +25,7 @@
 
 <br>
 
+<h2>CLI Quiz</h2>
 <form>
 	<p>What command can you use to display the current working directory in the terminal?</p>
 	  <input type="radio" id="clia1" name="cli" value="1">
