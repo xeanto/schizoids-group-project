@@ -29,6 +29,7 @@
 
 <br>
 
+<h2>Help Quiz</h2>
 <form>
 	<p>How can you access the Nano help menu?</p>
 	  <input type="radio" id="hlpa1" name="hlp" value="1">

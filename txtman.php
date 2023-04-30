@@ -9,7 +9,7 @@
 
 
 <main>
-    <h2>Basic navigation</h2>
+    <h2>Text manipulation</h2>
     <img id="" src="" alt="">
     <h3>Inserting text: </h3>
 	<ul>
@@ -47,6 +47,7 @@
 
 <br>
 
+<h2>Text Manipulation Quiz</h2>
 <form>
 	<p>How can you toggle syntax highlighting on and off in Nano?</p>
 	  <input type="radio" id="txtmana1" name="txtman" value="1">
