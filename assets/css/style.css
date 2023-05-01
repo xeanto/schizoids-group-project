@@ -252,3 +252,13 @@ h1 {
   background: var(--important-color);
   color: red;
 }
+.quiz br {
+  display: none;
+}
+.quiz label {
+  display: block;
+  margin: 0.5rem;
+}
+.quiz input[type="radio"] {
+  color: var(--important-color);
+}

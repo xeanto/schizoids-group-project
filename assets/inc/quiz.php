@@ -7,7 +7,7 @@
 echo "<h2>$title</h2>";
 $count = 0;
 foreach ($quizQuestions as $question) {
-    echo "<form id='quiz$count' class='Quiz'>"; // set id to check answer with JS
+    echo "<form id='quiz$count' class='quiz'>"; // set id to check answer with JS
     echo "<p>$question</p>";
     $actualAnswer = array_pop($quizAnswers[$count]); // get answer from array
     $subCount = 0;

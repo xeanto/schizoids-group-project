@@ -60,27 +60,6 @@ include($path . "assets/inc/nav.php");
 
 <br>
 
-<h2>Basic Navigation Quiz</h2>
-<div class="Quiz">
-	<p>Which key combination is used to search for text in Nano?</p>
-	<label for="1" id="basnava1Label">
-		  <input type="radio" id="basnava1" name="basnav" value="1" onclick="answerCorrectly(this,'basnava2')">
-		  Ctrl+S</label>
-	<br>
-	<label for="2" id="basnava2Label">
-		  <input type="radio" id="basnava2" name="basnav" value="2" onclick="answerCorrectly(this,'basnava2')">
-		  Ctrl+F</label>
-	<br>
-	<label for="3" id="basnava3Label">
-		  <input type="radio" id="basnava3" name="basnav" value="3" onclick="answerCorrectly(this,'basnava2')">
-		  Ctrl+R</label>
-	<br>
-	<label for="4" id="basnava4Label">
-		  <input type="radio" id="basnava4" name="basnav" value="4" onclick="answerCorrectly(this,'basnava2')">
-		  Ctrl+G</label>
-	<br>
-</div>
-
 <?php
 
 $quizQuestions = array(
