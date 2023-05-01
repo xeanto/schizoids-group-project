@@ -66,27 +66,6 @@ include($path . "assets/inc/nav.php");
 
 <br>
 
-<h2>Opening and Saving Files Quiz</h2>
-<div class="Quiz">
-	<p>What command can be used to save changes to a file in Nano?</p>
-	<label for="1" id="opsvfia1Label">
-		<input type="radio" id="opsvfia1" name="opsvfi" value="1" onclick="answerCorrectly(this,'opsvfia3')">
-		Ctrl+S</label>
-	<br>
-	<label for="2" id="opsvfia2Label">
-		<input type="radio" id="opsvfia2" name="opsvfi" value="2" onclick="answerCorrectly(this,'opsvfia3')">
-		Ctrl+X</label>
-	<br>
-	<label for="3" id="opsvfia3Label">
-		<input type="radio" id="opsvfia3" name="opsvfi" value="3" onclick="answerCorrectly(this,'opsvfia3')">
-		Ctrl+O</label>
-	<br>
-	<label for="4" id="opsvfia4Label">
-		<input type="radio" id="opsvfia4" name="opsvfi" value="4" onclick="answerCorrectly(this,'opsvfia3')">
-		Ctrl+Q</label>
-	<br>
-</div>
-
 <?php
 // quiz variables
 $title = "Opening and Saving Files Quiz";
