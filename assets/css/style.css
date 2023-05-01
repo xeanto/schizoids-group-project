@@ -137,6 +137,7 @@ body {
   text-decoration: none;
   display: block;
   text-align: left;
+  height: unset;
 }
 
 .topnav a:hover,
