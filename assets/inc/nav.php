@@ -16,7 +16,7 @@
 				<a href="fman.php">File manipulation</a>
 				<a href="pman.php">Process management</a>
 				<a href="txted.php">Text editors</a>
-				<a href="envar.php">Environmental variables</a>
+				<a href="envar.php">Environment variables</a>
 				<a href="rad.php">Redirection and piping</a>
 				<a href="perms.php">Permissions</a>
 			</div>

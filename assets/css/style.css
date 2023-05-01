@@ -246,3 +246,23 @@ h1 {
 .flex-container {
   display: flex;
 }
+/* need to change quiz styling, currently looks ugly */
+.correct {
+  background: var(--important-color);
+  color: yellow;
+}
+
+.incorrect {
+  background: var(--important-color);
+  color: red;
+}
+.quiz br {
+  display: none;
+}
+.quiz label {
+  display: block;
+  margin: 0.5rem;
+}
+.quiz input[type="radio"] {
+  color: var(--important-color);
+}
