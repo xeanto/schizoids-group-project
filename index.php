@@ -19,7 +19,7 @@
 		
 			<h1 id="about">About This Page</h1>
 			<p id="summary">
-				Hello and welcome to ???insert name here??? Unix tutorial site, Unix is a powerful 
+				Hello and welcome to our Unix tutorial site, Unix is a powerful 
 				and popular operating system that has been around for decades. It is used by programmers, 
 				system administrators, and computer enthusiasts worldwide. Whether you're new to Unix or you're 
 				looking to brush up on your skills, this tutorial site is here to help.

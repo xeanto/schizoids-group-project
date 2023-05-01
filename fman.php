@@ -38,36 +38,47 @@
 
 <br>
 
-<form>
+<h2>File Manipulation Quiz</h2>
+<div class="Quiz">
 	<p>What command can you use to copy a file from one directory to another?</p>
-	  <input type="radio" id="fmana1" name="fman" value="1">
-	  <label for="1">mv</label>
+	<label for="1" id="fmana1Label">
+	  <input type="radio" id="fmana1" name="fman" value="1" onclick="answerCorrectly(this,'fmana3')">
+	  mv</label>
 	<br>
-	  <input type="radio" id="fmana2" name="fman" value="2">
-	  <label for="2">cd</label>
+	<label for="2" id="fmana2Label">
+	  <input type="radio" id="fmana2" name="fman" value="2" onclick="answerCorrectly(this,'fmana3')">
+	  cd</label>
 	<br>
-	  <input type="radio" id="fmana3" name="fman" value="3">
-	  <label for="3">cp</label>
+	<label for="3" id="fmana3Label">
+	  <input type="radio" id="fmana3" name="fman" value="3" onclick="answerCorrectly(this,'fmana3')">
+	  cp</label>
 	<br>
-	  <input type="radio" id="fmana4" name="fman" value="4">
-	  <label for="4">mkdir</label>
+	<label for="4" id="fmana4Label">
+	  <input type="radio" id="fmana4" name="fman" value="4" onclick="answerCorrectly(this,'fmana3')">
+	  mkdir</label>
 	
     <br>  
-    
+</div>
+
+<div class="Quiz">
     <p>What command can you use to create a new empty file in the current directory?</p>
-	  <input type="radio" id="fmana5" name="fman" value="5">
-	  <label for="5">cat</label>
+	<label for="5" id="fmana5Label">  
+	<input type="radio" id="fmana5" name="fman" value="5" onclick="answerCorrectly(this,'fmana7')">
+	  cat</label>
 	<br>
-	  <input type="radio" id="fmana6" name="fman" value="6">
-	  <label for="6">mkdir</label>
+	<label for="6" id="fmana6Label">
+	  <input type="radio" id="fmana6" name="fman" value="6" onclick="answerCorrectly(this,'fmana7')">
+	  mkdir</label>
 	<br>
-	  <input type="radio" id="fmana7" name="fman" value="7">
-	  <label for="7">touch</label>
+	<label for="7" id="fmana7Label">
+	  <input type="radio" id="fmana7" name="fman" value="7" onclick="answerCorrectly(this,'fmana7')">
+	  touch</label>
 	<br>
-	  <input type="radio" id="fmana8" name="fman" value="8">
-	  <label for="8">nano</label>
+	<label for="8" id="fmana8Label">
+	  <input type="radio" id="fmana8" name="fman" value="8" onclick="answerCorrectly(this,'fmana7')">
+	  nano</label>
 	<br>
-</form>
+</div>
 
 
 <?php 

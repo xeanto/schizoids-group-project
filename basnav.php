@@ -44,21 +44,26 @@
 
 <br>
 
-<form>
+<h2>Basic Navigation Quiz</h2>
+<div class="Quiz">
 	<p>Which key combination is used to search for text in Nano?</p>
-	  <input type="radio" id="basnava1" name="basnav" value="1">
-	  <label for="1">Ctrl+S</label>
+	<label for="1" id="basnava1Label">
+	  <input type="radio" id="basnava1" name="basnav" value="1" onclick="answerCorrectly(this,'basnava2')">
+	  Ctrl+S</label>
 	<br>
-	  <input type="radio" id="basnava2" name="basnav" value="2">
-	  <label for="2">Ctrl+F</label>
+	<label for="2" id="basnava2Label">
+	  <input type="radio" id="basnava2" name="basnav" value="2" onclick="answerCorrectly(this,'basnava2')">
+	  Ctrl+F</label>
 	<br>
-	  <input type="radio" id="basnava3" name="basnav" value="3">
-	  <label for="3">Ctrl+R</label>
+	<label for="3" id="basnava3Label">
+	  <input type="radio" id="basnava3" name="basnav" value="3" onclick="answerCorrectly(this,'basnava2')">
+	  Ctrl+R</label>
 	<br>
-	  <input type="radio" id="basnava4" name="basnav" value="4">
-	  <label for="4">Ctrl+G</label>
+	<label for="4" id="basnava4Label">
+	  <input type="radio" id="basnava4" name="basnav" value="4" onclick="answerCorrectly(this,'basnava2')">
+	  Ctrl+G</label>
 	<br>  
-</form>
+</div>
 
 <?php 
 	//assets/inc/footer.php needs to be finished

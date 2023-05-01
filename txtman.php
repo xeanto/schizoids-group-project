@@ -9,7 +9,7 @@
 
 
 <main>
-    <h2>Basic navigation</h2>
+    <h2>Text manipulation</h2>
     <img id="" src="" alt="">
     <h3>Inserting text: </h3>
 	<ul>
@@ -47,21 +47,26 @@
 
 <br>
 
-<form>
-	<p>How can you toggle syntax highlighting on and off in Nano?</p>
-	  <input type="radio" id="txtmana1" name="txtman" value="1">
-	  <label for="1">Ctrl+X</label>
+<h2>Text Manipulation Quiz</h2>
+<div class="Quiz">
+	<p>What is the shortcut for cut in Nano?</p>
+	<label for="1" id="txtmana1Label">
+	  <input type="radio" id="txtmana1" name="txtman" value="1" onclick="answerCorrectly(this,'txtmana3')">
+	  Ctrl+X</label>
 	<br>
-	  <input type="radio" id="txtmana2" name="txtman" value="2">
-	  <label for="2">Ctrl+Y</label>
+	<label for="2" id="txtmana2Label">
+	  <input type="radio" id="txtmana2" name="txtman" value="2" onclick="answerCorrectly(this,'txtmana3')">
+	  Ctrl+Y</label>
 	<br>
-	  <input type="radio" id="txtmana3" name="txtman" value="3">
-	  <label for="3">Ctrl+S</label>
+	<label for="3" id="txtmana3Label">
+	  <input type="radio" id="txtmana3" name="txtman" value="3" onclick="answerCorrectly(this,'txtmana3')">
+	  Ctrl+K</label>
 	<br>
-	  <input type="radio" id="txtmana4" name="txtman" value="4">
-	  <label for="4">Ctrl+H</label>
+	<label for="4" id="txtmana4Label">
+	  <input type="radio" id="txtmana4" name="txtman" value="4" onclick="answerCorrectly(this,'txtmana3')">
+	  Ctrl+H</label>
 	<br>  
-</form>
+</div>
 <?php 
 	//assets/inc/footer.php needs to be finished
 	include($path . "assets/inc/footer.php");

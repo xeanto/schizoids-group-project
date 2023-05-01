@@ -25,35 +25,47 @@
 
 <br>
 
+<h2>CLI Quiz</h2>
 <form>
 	<p>What command can you use to display the current working directory in the terminal?</p>
-	  <input type="radio" id="clia1" name="cli" value="1">
-	  <label for="1">pwd</label>
+	<label for="1" id="clia1Label">  
+		<input type="radio" id="clia1" name="cli" value="1" onclick="answerCorrectly(this,'clia1')">
+	  pwd</label>
 	<br>
-	  <input type="radio" id="clia2" name="cli" value="2">
-	  <label for="2">ls</label>
+	<label for="2" id="clia2Label">
+	  <input type="radio" id="clia2" name="cli" value="2" onclick="answerCorrectly(this,'clia1')">
+	  ls</label>
 	<br>
-	  <input type="radio" id="clia3" name="cli" value="3">
-	  <label for="3">cd</label>
+	<label for="3" id="clia3Label">
+	  <input type="radio" id="clia3" name="cli" value="3" onclick="answerCorrectly(this,'clia1')">
+	  cd</label>
 	<br>
-	  <input type="radio" id="clia4" name="cli" value="4">
-	  <label for="4">mkdir</label>
+	<label for="4" id="clia4Label">
+	  <input type="radio" id="clia4" name="cli" value="4" onclick="answerCorrectly(this,'clia1')">
+	  mkdir</label>
 	
-    <br>  
+    <br> 
+</div> 
     
+<div class="Quiz" >
     <p>What command can you use to move up one level in the file system hierarchy?</p>
-	  <input type="radio" id="clia5" name="cli" value="5">
-	  <label for="5">cd .</label>
+		<label for="5" id="clia5Label">  
+	<input type="radio" id="clia5" name="cli" value="5" onclick="answerCorrectly(this,'clia6')">
+	  cd .</label>
 	<br>
-	  <input type="radio" id="clia6" name="cli" value="6">
-	  <label for="6">cd ..</label>
+	<label for="6" id="clia6Label">
+	  <input type="radio" id="clia6" name="cli" value="6" onclick="answerCorrectly(this,'clia6')">
+	  cd ..</label>
 	<br>
-	  <input type="radio" id="clia7" name="cli" value="7">
-	  <label for="7">cd /</label>
+	<label for="7" id="clia7Label">
+	  <input type="radio" id="clia7" name="cli" value="7" onclick="answerCorrectly(this,'clia6')">
+	  cd /</label>
 	<br>
-	  <input type="radio" id="clia8" name="cli" value="8">
-	  <label for="8">cd ~</label>
+	<label for="8" id="clia8Label">
+	  <input type="radio" id="clia8" name="cli" value="8" onclick="answerCorrectly(this,'clia6')">
+	  cd ~</label>
 	<br>
+</div>
 </form>
 
 <?php 
