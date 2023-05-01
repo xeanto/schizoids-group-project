@@ -1,3 +1,9 @@
+/* define variables for use globally */
+:root {
+  --hover-background: #2c393b;
+  --darker-bg: #6e878b;
+}
+
 /* info about me */
 #about {
   text-align: left;
@@ -72,6 +78,10 @@ body {
   font-family: title;
 }
 
+footer {
+  background: ;
+}
+
 /*menue bar*/
 .topnav {
   background-color: #6e878b;
@@ -85,7 +95,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #2c393b;
+  color: var(--hover-background);
   text-align: center;
   /* padding: 14px 16px; setting size instead of padding */
   height: 3rem;
@@ -113,7 +123,7 @@ body {
   font-size: 17px;
   border: none;
   outline: none;
-  color: #2c393b;
+  color: var(--hover-background);
   padding: 14px 16px;
   height: 3rem;
   background-color: inherit;
@@ -132,7 +142,7 @@ body {
 
 .nav-drop a {
   float: none;
-  color: #2c393b;
+  color: var(--hover-background);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -143,69 +153,20 @@ body {
 .topnav a:hover,
 .nav-content:hover .nav-button {
   /* background-color: #6e878b; */
-  background-color: #2c393b;
+  background-color: var(--hover-background);
   color: #deeced;
   cursor: pointer;
 }
 
 .nav-drop a:hover {
   background-color: #deeced;
-  color: #2c393b;
+  color: var(--hover-background);
   cursor: pointer;
 }
 
 .nav-content:hover .nav-drop {
   display: block;
 }
-/* 
-.Nano {
-  float: left;
-  overflow: hidden;
-}
-
-.Nano .Nanobtn {
-  font-size: 17px;
-  border: none;
-  outline: none;
-  color: #2c393b;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.Nano-content {
-  display: none;
-  position: absolute;
-  background-color: #deeced;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.Nano-content a {
-  float: none;
-  color: #2c393b;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.topnav a:hover,
-.Nano:hover .Nanobtn {
-  background-color: #2c393b;
-  color: #deeced;
-}
-
-.Nano-content a:hover {
-  background-color: #2c393b;
-  color: #deeced;
-}
-
-.Nano:hover .Nano-content {
-  display: block;
-} */
 
 .Museums {
   float: left;
@@ -216,7 +177,7 @@ body {
   font-size: 17px;
   border: none;
   outline: none;
-  color: #2c393b;
+  color: var(--hover-background);
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -234,7 +195,7 @@ body {
 
 .Museums-content a {
   float: none;
-  color: #2c393b;
+  color: var(--hover-background);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
