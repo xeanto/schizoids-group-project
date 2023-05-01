@@ -1,89 +1,85 @@
 /* info about me */
-#about{
-	text-align:left;
-	padding:20px;
+#about {
+  text-align: left;
+  padding: 20px;
 }
 
-#summary{
-	text-align:left;
-	margin-left: auto;
+#summary {
+  text-align: left;
+  margin-left: auto;
   margin-right: auto;
-	width: 75%;
+  width: 75%;
 }
 
-#title{
-	background-color: #DEECED;
-	text-align:left;
+#title {
+  background-color: #deeced;
+  text-align: left;
   font-family: title;
 }
 @font-face {
   font-family: title;
-  src: url(assets/css/Inconsolata-Regular.ttf);
+  src: url("/~iste240t51/assets/css/Inconsolata-Regular.ttf");
 }
 
 /* center titles and paragraphs */
-h4{
-	text-align:left;
+h4 {
+  text-align: left;
 }
 
-p{
-	text-align:left;
+p {
+  text-align: left;
   font-family: title;
   font-size: 16px;
 }
 
 /* links */
 
-a{
-  color: #00A0B6;
-  background-color: #DEECED;
+a {
+  color: #00a0b6;
+  background-color: #deeced;
   text-decoration: none;
-
 }
 
 a:hover {
   color: #00c0da;
-  background-color: #DEECED;
+  background-color: #deeced;
   text-decoration: none;
-
 }
 
 a:active {
   color: orange;
   background-color: transparent;
   text-decoration: none;
-
 }
 
-body{
-	background-color: #DEECED;
-	font-family: title;
-
+body {
+  background-color: #deeced;
+  font-family: title;
 }
 
 /*menue bar*/
 .topnav {
-  background-color: #6E878B;
+  background-color: #6e878b;
   overflow: hidden;
   top: 0;
   width: 100%;
-  margin:0;
+  margin: 0;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #2C393B;
+  color: #2c393b;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: #6E878B;
+  background-color: #6e878b;
   font-size: 17px;
 }
 
 .active {
-  background-color: #00A0B6;
-  color: #DEECED;
+  background-color: #00a0b6;
+  color: #deeced;
 }
 
 .topnav .icon {
@@ -96,10 +92,10 @@ body{
 }
 
 .Unix .Unixbtn {
-  font-size: 17px; 
+  font-size: 17px;
   border: none;
   outline: none;
-  color: #2C393B;
+  color: #2c393b;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -109,29 +105,30 @@ body{
 .Unix-content {
   display: none;
   position: absolute;
-  background-color: #DEECED;
+  background-color: #deeced;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .Unix-content a {
   float: none;
-  color: #2C393B;
+  color: #2c393b;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
-.topnav a:hover, .Unix:hover .Unixbtn {
-  background-color: #6E878B;
-  color: #DEECED;
+.topnav a:hover,
+.Unix:hover .Unixbtn {
+  background-color: #6e878b;
+  color: #deeced;
 }
 
 .Unix-content a:hover {
-  background-color: #DEECED;
-  color: #2C393B;
+  background-color: #deeced;
+  color: #2c393b;
 }
 
 .Unix:hover .Unix-content {
@@ -144,10 +141,10 @@ body{
 }
 
 .Nano .Nanobtn {
-  font-size: 17px; 
+  font-size: 17px;
   border: none;
   outline: none;
-  color: #2C393B;
+  color: #2c393b;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -157,36 +154,35 @@ body{
 .Nano-content {
   display: none;
   position: absolute;
-  background-color: #DEECED;
+  background-color: #deeced;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .Nano-content a {
   float: none;
-  color: #2C393B;
+  color: #2c393b;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
-.topnav a:hover, .Nano:hover .Nanobtn {
-  background-color: #2C393B;
-  color: #DEECED;
+.topnav a:hover,
+.Nano:hover .Nanobtn {
+  background-color: #2c393b;
+  color: #deeced;
 }
 
 .Nano-content a:hover {
-  background-color: #2C393B;
-  color: #DEECED;
+  background-color: #2c393b;
+  color: #deeced;
 }
 
 .Nano:hover .Nano-content {
   display: block;
 }
-
-
 
 .Museums {
   float: left;
@@ -194,10 +190,10 @@ body{
 }
 
 .Museums .Museumsbtn {
-  font-size: 17px; 
+  font-size: 17px;
   border: none;
   outline: none;
-  color: #2C393B;
+  color: #2c393b;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -207,32 +203,32 @@ body{
 .Museums-content {
   display: none;
   position: absolute;
-  background-color: #DEECED;
+  background-color: #deeced;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .Museums-content a {
   float: none;
-  color: #2C393B;
+  color: #2c393b;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
-.topnav a:hover, .Museums:hover .Museumsbtn {
-  background-color: #6E878B;
-  color: #DEECED;
+.topnav a:hover,
+.Museums:hover .Museumsbtn {
+  background-color: #6e878b;
+  color: #deeced;
 }
 
 .Museums-content a:hover {
-  background-color: #6E878B;
-  color: #DEECED;
+  background-color: #6e878b;
+  color: #deeced;
 }
 
 .Museums:hover .Museums-content {
   display: block;
 }
-
