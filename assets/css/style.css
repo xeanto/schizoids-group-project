@@ -16,6 +16,21 @@
   text-align: left;
   font-family: title;
 }
+
+/* Styling logo to not conflict with the hovering of other links */
+#logo:hover img {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+#logo img {
+  object-fit: scale-down;
+  height: 2.5rem;
+  width: auto;
+  padding: 0.25rem 0.25rem;
+}
+#logo {
+  padding: 0 0.25rem;
+}
 @font-face {
   font-family: title;
   src: url("/~iste240t51/assets/css/Inconsolata-Regular.ttf");
@@ -64,6 +79,7 @@ body {
   top: 0;
   width: 100%;
   margin: 0;
+  height: 3rem;
 }
 
 .topnav a {
@@ -71,6 +87,8 @@ body {
   display: block;
   color: #2c393b;
   text-align: center;
+  /* padding: 14px 16px; setting size instead of padding */
+  height: 3rem;
   padding: 14px 16px;
   text-decoration: none;
   background-color: #6e878b;
@@ -97,6 +115,7 @@ body {
   outline: none;
   color: #2c393b;
   padding: 14px 16px;
+  height: 3rem;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -125,19 +144,19 @@ body {
   /* background-color: #6e878b; */
   background-color: #2c393b;
   color: #deeced;
-  cursor: default;
+  cursor: pointer;
 }
 
 .nav-drop a:hover {
   background-color: #deeced;
   color: #2c393b;
-  cursor: default;
+  cursor: pointer;
 }
 
 .nav-content:hover .nav-drop {
   display: block;
 }
-
+/* 
 .Nano {
   float: left;
   overflow: hidden;
@@ -185,7 +204,7 @@ body {
 
 .Nano:hover .Nano-content {
   display: block;
-}
+} */
 
 .Museums {
   float: left;

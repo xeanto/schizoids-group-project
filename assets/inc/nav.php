@@ -4,7 +4,7 @@
 
 	<div class="topnav" id="myTopnav">
 
-		<a href="index.php"><img src="/~iste240t51/assets/media/logo.png" alt="Unix Survival logo"></a>
+		<a id="logo" href="index.php"><img src="/~iste240t51/assets/media/logo.png" alt="Unix Survival logo"></a>
 
 		<a href="history.php">History</a>
 
