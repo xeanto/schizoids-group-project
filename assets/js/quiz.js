@@ -17,7 +17,7 @@ function validateQuiz(quizID, answerValue) {
       styleQuiz(radios, true);
       alert("You got it right!");
       return true;
-    } else {
+    } else if (radios[i].checked && radios[i].value != answerValue) {
       styleQuiz(radios, false);
       alert("womp womp");
       return false;
