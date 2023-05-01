@@ -25,6 +25,10 @@
   font-family: title;
 }
 
+#hero {
+  max-width:100%;
+}
+
 body {
   background-color: var(--lighter-color);
 }
