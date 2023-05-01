@@ -17,7 +17,7 @@
 }
 @font-face {
   font-family: title;
-  src: url(inconsolata-regular.ttf);
+  src: url(Inconsolata-regular.ttf);
 }
 
 /* center titles and paragraphs */
@@ -27,6 +27,7 @@ h4{
 
 p{
 	text-align:left;
+  font-family: Inconsolata;
 }
 
 /* links */
@@ -64,6 +65,7 @@ body{
   overflow: hidden;
   top: 0;
   width: 100%;
+  margin:0;
 }
 
 .topnav a {
