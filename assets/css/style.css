@@ -86,12 +86,12 @@ body {
   display: none;
 }
 
-.Unix {
+.nav-content {
   float: left;
   overflow: hidden;
 }
 
-.Unix .Unixbtn {
+.nav-content .nav-button {
   font-size: 17px;
   border: none;
   outline: none;
@@ -102,7 +102,7 @@ body {
   margin: 0;
 }
 
-.Unix-content {
+.nav-drop {
   display: none;
   position: absolute;
   background-color: #deeced;
@@ -111,7 +111,7 @@ body {
   z-index: 1;
 }
 
-.Unix-content a {
+.nav-drop a {
   float: none;
   color: #2c393b;
   padding: 12px 16px;
@@ -121,17 +121,20 @@ body {
 }
 
 .topnav a:hover,
-.Unix:hover .Unixbtn {
-  background-color: #6e878b;
+.nav-content:hover .nav-button {
+  /* background-color: #6e878b; */
+  background-color: #2c393b;
   color: #deeced;
+  cursor: default;
 }
 
-.Unix-content a:hover {
+.nav-drop a:hover {
   background-color: #deeced;
   color: #2c393b;
+  cursor: default;
 }
 
-.Unix:hover .Unix-content {
+.nav-content:hover .nav-drop {
   display: block;
 }
 
@@ -218,7 +221,7 @@ body {
   text-align: left;
 }
 
-.topnav a:hover,
+/* .topnav a:hover, -- conflicts with nav hovering above */
 .Museums:hover .Museumsbtn {
   background-color: #6e878b;
   color: #deeced;

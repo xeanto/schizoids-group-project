@@ -8,9 +8,9 @@
 
 		<a href="history.php">History</a>
 
-		<div class="Unix">
-			<button class="Unixbtn">Unix</button>
-			<div class="Unix-content">
+		<div class="nav-content">
+			<button class="nav-button">Unix</button>
+			<div class="nav-drop">
 				<a href="cli.php">Command line interface (CLI)</a>
 				<a href="fsn.php">File system navigation</a>
 				<a href="fman.php">File manipulation</a>
@@ -22,9 +22,9 @@
 			</div>
 		</div>
 
-		<div class="Nano">
-			<button class="Nanobtn">Nano</button>
-			<div class="Nano-content">
+		<div class="nav-content">
+			<button class="nav-button">Nano</button>
+			<div class="nav-drop">
 				<a href="opsvfi.php">Opening and saving files</a>
 				<a href="basnav.php">Basic navigation</a>
 				<a href="txtman.php">Text manipulation</a>
