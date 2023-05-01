@@ -13,7 +13,7 @@ include($path . "assets/inc/nav.php");
 <!-- UNIQUE INFO HERE -->
 
 <div id="top" class="column">
-	<div class="row">
+	<div class="row home-header">
 		<h1 id="title">Unix Survival Guide</h1>
 		<img id="" src="" alt="">
 	</div>
