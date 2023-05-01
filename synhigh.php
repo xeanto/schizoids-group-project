@@ -37,21 +37,25 @@
 <br>
 
 <h3>Syntax Highlighting Quiz</h3>
-<form>
+<div class="Quiz">
 	<p>How can you toggle syntax highlighting on and off in Nano?</p>
-	  <input type="radio" id="synhigha1" name="synhigh" value="1">
-	  <label for="1">Ctrl+S</label>
+	<label for="1" id="synhigha1Label">
+	  <input type="radio" id="synhigha1" name="synhigh" value="1" onclick="answerCorrectly(this,'synhigha2')">
+	  Ctrl+S</label>
 	<br>
-	  <input type="radio" id="synhigha2" name="synhigh" value="2">
-	  <label for="2">Ctrl+Y</label>
+	<label for="2" id="synhigha2Label">
+	  <input type="radio" id="synhigha2" name="synhigh" value="2" onclick="answerCorrectly(this,'synhigha2')">
+	  Ctrl+Y</label>
 	<br>
-	  <input type="radio" id="synhigha3" name="synhigh" value="3">
-	  <label for="3">Ctrl+X</label>
+	<label for="3" id="synhigha3Label">
+	  <input type="radio" id="synhigha3" name="synhigh" value="3" onclick="answerCorrectly(this,'synhigha2')">
+	  Ctrl+X</label>
 	<br>
-	  <input type="radio" id="synhigha4" name="synhigh" value="4">
-	  <label for="4">Ctrl+H</label>
+	<label for="4" id="synhigha4Label">
+	  <input type="radio" id="synhigha4" name="synhigh" value="4" onclick="answerCorrectly(this,'synhigha2')">
+	  Ctrl+H</label>
 	<br>  
-</form>
+</div>
 
 <?php 
 	//assets/inc/footer.php needs to be finished

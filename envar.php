@@ -32,8 +32,25 @@
 <br>
 
 <h2>Environmental variables Quiz</h2>
-<form>
+<div class="Quiz">
 	<p>What command can you use to set the value of an environmental variable?</p>
+<<<<<<< HEAD
+	<label for="1" id="fmana1Label">
+	  <input type="radio" id="fmana1" name="fman" value="1" onclick="answerCorrectly(this,'fmana1')">
+	  export</label>
+	<br>
+	<label for="2" id="fmana2Label">
+	  <input type="radio" id="fmana2" name="fman" value="2" onclick="answerCorrectly(this,'fmana1')">
+	  set</label>
+	<br>
+	<label for="3" id="fmana3Label">
+	  <input type="radio" id="fmana3" name="fman" value="3" onclick="answerCorrectly(this,'fmana1')">
+	  unset</label>
+	<br>
+	<label for="4" id="fmana4Label">
+	  <input type="radio" id="fmana4" name="fman" value="4" onclick="answerCorrectly(this,'fmana1')">
+	  env</label>
+=======
 	  <input type="radio" id="envara1" name="envar" value="1">
 	  <label for="1">export</label>
 	<br>
@@ -45,10 +62,30 @@
 	<br>
 	  <input type="radio" id="envara4" name="envar" value="4">
 	  <label for="4">env</label>
+>>>>>>> 84d352069d39636233d006eb8312695bdcbc6ac7
 	
-    <br>  
+    <br> 
+</div> 
     
+<div class="Quiz">
     <p>What is the name of the environmental variable that stores the current user's home directory?</p>
+<<<<<<< HEAD
+	<label for="5" id="fmana5Label">  
+	<input type="radio" id="fmana5" name="fman" value="5" onclick="answerCorrectly(this,'fmana5')">
+	  $HOME</label>
+	<br>
+	<label for="6" id="fmana6Label">
+	  <input type="radio" id="fmana6" name="fman" value="6" onclick="answerCorrectly(this,'fmana5')">
+	  $PATH</label>
+	<br>
+	<label for="7" id="fmana7Label">
+	  <input type="radio" id="fmana7" name="fman" value="7" onclick="answerCorrectly(this,'fmana5')">
+	  $USER</label>
+	<br>
+	<label for="8" id="fmana8Label">
+	  <input type="radio" id="fmana8" name="fman" value="8" onclick="answerCorrectly(this,'fmana5')">
+	  $SHELL</label>
+=======
 	  <input type="radio" id="envara5" name="envar" value="5">
 	  <label for="5">$HOME</label>
 	<br>
@@ -60,8 +97,9 @@
 	<br>
 	  <input type="radio" id="envara8" name="envar" value="8">
 	  <label for="8">$SHELL</label>
+>>>>>>> 84d352069d39636233d006eb8312695bdcbc6ac7
 	<br>
-</form>
+</div>
 
 
 <?php 

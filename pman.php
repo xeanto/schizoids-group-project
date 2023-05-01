@@ -37,8 +37,25 @@
 <br>
 
 <h2>Process management Quiz</h2>
-<form>
+<div class="Quiz">
 	<p>What command can you use to display a list of all currently running processes?</p>
+<<<<<<< HEAD
+	<label for="1" id="txtmana1Label">
+	  <input type="radio" id="txtmana1" name="pman" value="1" onclick="answerCorrectly(this,'txtmana1')">
+	  ps</label>
+	<br>
+	<label for="2" id="txtmana2Label">
+	  <input type="radio" id="txtmana2" name="pman" value="2" onclick="answerCorrectly(this,'txtmana1')">
+	  kill</label>
+	<br>
+	<label for="3" id="txtmana3Label">
+	  <input type="radio" id="txtmana3" name="pman" value="3" onclick="answerCorrectly(this,'txtmana1')">
+	  top</label>
+	<br>
+	<label for="4" id="txtmana4Label">
+	  <input type="radio" id="txtmana4" name="pman" value="4" onclick="answerCorrectly(this,'txtmana1')">
+	  grep</label>
+=======
 	  <input type="radio" id="pmana1" name="pman" value="1">
 	  <label for="1">ps</label>
 	<br>
@@ -50,10 +67,31 @@
 	<br>
 	  <input type="radio" id="pmana4" name="pman" value="4">
 	  <label for="4">grep</label>
+>>>>>>> 84d352069d39636233d006eb8312695bdcbc6ac7
 
 	<br>  
+</div>
 
+<div class="Quiz">
     <p>What command can you use to stop a running process?</p>
+<<<<<<< HEAD
+	<label for="5" id="txtmana5Label">
+	  <input type="radio" id="txtmana5" name="pman" value="5" onclick="answerCorrectly(this,'txtmana6')">
+	  ps</label>
+	<br>
+	<label for="6" id="txtmana6Label">
+	  <input type="radio" id="txtmana6" name="pman" value="6" onclick="answerCorrectly(this,'txtmana6')">
+	  kill</label>
+	<br>
+	<label for="7" id="txtmana7Label">
+	  <input type="radio" id="txtmana7" name="pman" value="7" onclick="answerCorrectly(this,'txtmana6')">
+	  top</label>
+	<br>
+	<label for="8" id="txtmana8Label">
+	  <input type="radio" id="txtmana8" name="pman" value="8" onclick="answerCorrectly(this,'txtmana6')">
+	  grep</label>
+</div>
+=======
 	  <input type="radio" id="pmana1" name="pman" value="5">
 	  <label for="5">ps</label>
 	<br>
@@ -66,6 +104,7 @@
 	  <input type="radio" id="pmana4" name="pman" value="8">
 	  <label for="8">grep</label>
 </form>
+>>>>>>> 84d352069d39636233d006eb8312695bdcbc6ac7
 
 <?php 
 	//assets/inc/footer.php needs to be finished

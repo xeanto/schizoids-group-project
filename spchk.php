@@ -31,21 +31,25 @@
 <br>
 
 <h2>Spell-checkig Quiz</h2>
-<form>
+<div class="Quiz">
 	<p>What command can be used to start spell-checking in Nano?</p>
-	  <input type="radio" id="spchka1" name="spchk" value="1">
-	  <label for="1">Ctrl+S</label>
+	<label for="1" id="spchka1Label">
+	  <input type="radio" id="spchka1" name="spchk" value="1" onclick="answerCorrectly(this,'spchka3')">
+	  Ctrl+S</label>
 	<br>
-	  <input type="radio" id="spchka2" name="spchk" value="2">
-	  <label for="2">Ctrl+Y</label>
+	<label for="2" id="spchka2Label">
+	  <input type="radio" id="spchka2" name="spchk" value="2" onclick="answerCorrectly(this,'spchka3')">
+	  Ctrl+Y</label>
 	<br>
-	  <input type="radio" id="spchka3" name="spchk" value="3">
-	  <label for="3">Ctrl+T</label>
+	<label for="3" id="spchka3Label">
+	  <input type="radio" id="spchka3" name="spchk" value="3" onclick="answerCorrectly(this,'spchka3')">
+	  Ctrl+T</label>
 	<br>
-	  <input type="radio" id="spchka4" name="spchk" value="4">
-	  <label for="4">Ctrl+C</label>
+	<label for="4" id="spchka4Label">
+	  <input type="radio" id="spchka4" name="spchk" value="4" onclick="answerCorrectly(this,'spchka3')">
+	  Ctrl+C</label>
 	<br>  
-</form>
+</div>
 
 <?php 
 	//assets/inc/footer.php needs to be finished
