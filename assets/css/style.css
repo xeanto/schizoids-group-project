@@ -2,6 +2,7 @@
 :root {
   --hover-background: #2c393b;
   --darker-bg: #6e878b;
+  --lighter-color: #deeced;
 }
 
 /* info about me */
@@ -18,7 +19,7 @@
 }
 
 #title {
-  background-color: #deeced;
+  background-color: var(--lighter-color);
   text-align: left;
   font-family: title;
 }
@@ -57,13 +58,13 @@ p {
 
 a {
   color: #00a0b6;
-  background-color: #deeced;
+  background-color: var(--lighter-color);
   text-decoration: none;
 }
 
 a:hover {
   color: #00c0da;
-  background-color: #deeced;
+  background-color: var(--lighter-color);
   text-decoration: none;
 }
 
@@ -74,7 +75,7 @@ a:active {
 }
 
 body {
-  background-color: #deeced;
+  background-color: var(--lighter-color);
   font-family: title;
 }
 
@@ -84,7 +85,7 @@ footer {
 
 /*menue bar*/
 .topnav {
-  background-color: #6e878b;
+  background-color: var(--darker-bg);
   overflow: hidden;
   top: 0;
   width: 100%;
@@ -101,13 +102,13 @@ footer {
   height: 3rem;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: #6e878b;
+  background-color: var(--darker-bg);
   font-size: 17px;
 }
 
 .active {
   background-color: #00a0b6;
-  color: #deeced;
+  color: var(--lighter-color);
 }
 
 .topnav .icon {
@@ -134,7 +135,7 @@ footer {
 .nav-drop {
   display: none;
   position: absolute;
-  background-color: #deeced;
+  background-color: var(--lighter-color);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -152,14 +153,14 @@ footer {
 
 .topnav a:hover,
 .nav-content:hover .nav-button {
-  /* background-color: #6e878b; */
+  /* background-color: var(--darker-bg); */
   background-color: var(--hover-background);
-  color: #deeced;
+  color: var(--lighter-color);
   cursor: pointer;
 }
 
 .nav-drop a:hover {
-  background-color: #deeced;
+  background-color: var(--lighter-color);
   color: var(--hover-background);
   cursor: pointer;
 }
@@ -187,7 +188,7 @@ footer {
 .Museums-content {
   display: none;
   position: absolute;
-  background-color: #deeced;
+  background-color: var(--lighter-color);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -204,13 +205,13 @@ footer {
 
 /* .topnav a:hover, -- conflicts with nav hovering above */
 .Museums:hover .Museumsbtn {
-  background-color: #6e878b;
-  color: #deeced;
+  background-color: var(--darker-bg);
+  color: var(--lighter-color);
 }
 
 .Museums-content a:hover {
-  background-color: #6e878b;
-  color: #deeced;
+  background-color: var(--darker-bg);
+  color: var(--lighter-color);
 }
 
 .Museums:hover .Museums-content {
