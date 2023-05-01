@@ -3,6 +3,7 @@
   --hover-background: #2c393b;
   --darker-bg: #6e878b;
   --lighter-color: #deeced;
+  --important-color: #00a0b6;
 }
 
 /* info about me */
@@ -24,20 +25,10 @@
   font-family: title;
 }
 
-/* Styling logo to not conflict with the hovering of other links */
-#logo:hover img {
-  -webkit-filter: brightness(0) invert(1);
-  filter: brightness(0) invert(1);
+body {
+  background-color: var(--lighter-color);
 }
-#logo img {
-  object-fit: scale-down;
-  height: 2.5rem;
-  width: auto;
-  padding: 0.25rem 0.25rem;
-}
-#logo {
-  padding: 0 0.25rem;
-}
+
 @font-face {
   font-family: title;
   src: url("/~iste240t51/assets/css/Inconsolata-Regular.ttf");
@@ -57,7 +48,7 @@ p {
 /* links */
 
 a {
-  color: #00a0b6;
+  color: var(--important-color);
   background-color: var(--lighter-color);
   text-decoration: none;
 }
@@ -80,7 +71,13 @@ body {
 }
 
 footer {
-  background: ;
+  background: var(--darker-bg);
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+
+h1 {
+  color: var(--important-color);
 }
 
 /*menue bar*/
@@ -107,7 +104,7 @@ footer {
 }
 
 .active {
-  background-color: #00a0b6;
+  background-color: var(--important-color);
   color: var(--lighter-color);
 }
 
@@ -216,4 +213,32 @@ footer {
 
 .Museums:hover .Museums-content {
   display: block;
+}
+/* Styling logo to not conflict with the hovering of other links */
+.logo:hover img {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+.logo img {
+  object-fit: scale-down;
+  height: 2.5rem;
+  width: auto;
+  padding: 0.25rem 0.25rem;
+}
+.logo {
+  padding: 0 !important;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container {
+  display: flex;
 }
