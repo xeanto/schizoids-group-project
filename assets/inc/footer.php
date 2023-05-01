@@ -4,10 +4,13 @@ if (isset($id)) {
 }
 ?>
 <footer>
-        <!--Contact info-->
+  <!--Contact info-->
+  <div class="copyright">
+    <p>© 2023 ISTE240 Team 51 Casey Malley, Brain Lee, Maureen McLean, Ryan Hamilton, Irwin Lin</p>
+    <p>Created for ISTE240 with Professor Takats </p>
+  </div>
+</footer>
 
-		</footer>
-		
-    </body>
-    
+</body>
+
 </html>
