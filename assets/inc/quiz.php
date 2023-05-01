@@ -7,21 +7,15 @@
 echo "<h2>$title</h2>";
 $count = 0;
 foreach ($quizQuestions as $question) {
-    echo "<form id='quiz$count'>";
+    echo "<form id='quiz$count'>"; // set id to check answer with JS
     echo "<p>$question</p>";
-    $actualAnswer = $quizAnswers[$count][count($quizAnswers) - 1]; // get answer from array
-    $currentQuestionSet = array_slice(
-        $quizAnswers[$count],
-        0,
-        count($quizAnswers[$count]) - 1,
-        true
-    ); // remove last element since last element is correct answer
-    foreach ($currentQuestionSet as $answer) {
+    $actualAnswer = array_pop($quizAnswers[$count]); // get answer from array
+    foreach ($quizAnswers[$count] as $answer) { // print out answers
         echo "<label for=\"$answer\" id=\"clia$count" . "Label\">";
         echo "<input type=\"radio\" id=\"clia$answer\" name=\"cli\" value=\"$answer\" onclick=\"\">";
         echo "$answer</label><br>";
     }
-    echo "<input type=\"button\" value=\"Submit\" onClick='validateQuiz(quiz$count)'>";
-    echo "</form>";
+    echo "<input type=\"button\" value=\"Check Answer\" onClick=\"validateQuiz('quiz$count', '$actualAnswer')\">";
+    echo "</form>"; // close form and put check answer button
     $count++;
 }

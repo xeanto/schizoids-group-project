@@ -9,11 +9,29 @@ function answerCorrectly(actual, excpectedID) {
   }
 }
 
-function validateQuiz(quizID) {
-  form = document.getElementById(quizID);
-  selected = form.querySelectorAll("input:checked").value;
-    if (selected == true) {
-        alert("You got it right!");
-        }
+function validateQuiz(quizID, answerValue) {
+  var form = document.getElementById(quizID);
+  var radios = form.getElementsByTagName("input");
+  for (i = 0; i < radios.length; i++) {
+    if (radios[i].checked && radios[i].value == answerValue) {
+      styleQuiz(radios, true);
+      alert("You got it right!");
+      return true;
+    } else {
+      styleQuiz(radios, false);
+      alert("womp womp");
+      return false;
+    }
+  }
+}
+
+function styleQuiz(radios, answerBool) {
+  for (i = 0; i < radios.length; i++) {
+    if (radios[i].checked && answerBool) {
+      radios[i].parentNode.classList.add("correct");
+      console.log(radios[i].classList);
+    } else if (radios[i].checked && !answerBool) {
+      radios[i].parentNode.classList.add("incorrect");
+    }
   }
 }
