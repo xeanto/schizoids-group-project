@@ -46,32 +46,31 @@
 <h2>Unix Permissions Quiz</h2>
 <form>
 	<p>What command can you use to change the permissions of a file?</p>
-	  <input type="radio" id="permsa1" name="perms" value="1">
-	  <label for="1">chmod</label>
+	  
+	  <label for="1"><input type="radio" id="permsa1" name="perms" value="1" onclick="answerCorrectly(this,'permsa1')>chmod</label>
 	<br>
-	  <input type="radio" id="permsa2" name="perms" value="2">
-	  <label for="2">chown</label>
+	  <label for="2"><input type="radio" id="permsa2" name="perms" value="2" onclick="answerCorrectly(this,'permsa2')>chown</label>
 	<br>
-	  <input type="radio" id="permsa3" name="perms" value="3">
-	  <label for="3">chgrp</label>
+	  
+	  <label for="3"><input type="radio" id="permsa3" name="perms" value="3" onclick="answerCorrectly(this,'permsa3')>chgrp</label>
 	<br>
-	  <input type="radio" id="permsa4" name="perms" value="4">
-	  <label for="4">chmod +x</label>
+	  
+	  <label for="4"><input type="radio" id="permsa4" name="perms" value="4" onclick="answerCorrectly(this,'permsa4')>chmod +x</label>
 	
     <br>  
     
     <p>What does the "r" permission represent in Unix file permissions?</p>
-	  <input type="radio" id="permsa5" name="perms" value="5">
-	  <label for="5">Read permission</label>
+	  
+	  <label for="5"><input type="radio" id="permsa5" name="perms" value="5" onclick="answerCorrectly(this,'permsa5')>Read permission</label>
 	<br>
-	  <input type="radio" id="permsa6" name="perms" value="6">
-	  <label for="6">Write permission</label>
+	  
+	  <label for="6"><input type="radio" id="permsa6" name="perms" value="6" onclick="answerCorrectly(this,'permsa6')>Write permission</label>
 	<br>
-	  <input type="radio" id="permsa7" name="perms" value="7">
-	  <label for="7">Execute permission</label>
+	  
+	  <label for="7"><input type="radio" id="permsa7" name="perms" value="7" onclick="answerCorrectly(this,'permsa7')>Execute permission</label>
 	<br>
-	  <input type="radio" id="permsa8" name="perms" value="8">
-	  <label for="8">None of the above</label>
+	  
+	  <label for="8"><input type="radio" id="permsa8" name="perms" value="8" onclick="answerCorrectly(this,'permsa8')>None of the above</label>
 	<br>
 </form>
 
