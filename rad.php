@@ -38,32 +38,32 @@
 <h2>Unix Redirection and Piping Quiz</h2>
 <form>
 	<p>What symbol can you use to redirect the output of a command to a file?</p>
-	  <input type="radio" id="rada1" name="rad" value="1">
-	  <label for="1">></label>
+	  
+	  <label for="1"><input type="radio" id="rada1" name="rad" value="1" onclick="answerCorrectly(this,'rada1')>></label>
 	<br>
-	  <input type="radio" id="rada2" name="rad" value="2">
-	  <label for="2"><</label>
+	  
+	  <label for="2"><input type="radio" id="rada2" name="rad" value="2" onclick="answerCorrectly(this,'rada2')><</label>
 	<br>
-	  <input type="radio" id="rada3" name="rad" value="3">
-	  <label for="3">|</label>
+	  
+	  <label for="3"><input type="radio" id="rada3" name="rad" value="3" onclick="answerCorrectly(this,'rada3')>|</label>
 	<br>
-	  <input type="radio" id="rada4" name="rad" value="4">
-	  <label for="4">&</label>
+	  
+	  <label for="4"><input type="radio" id="rada4" name="rad" value="4" onclick="answerCorrectly(this,'rada4')>&</label>
 	
     <br>  
     
     <p>What symbol can you use to pipe the output of one command to the input of another?</p>
-	  <input type="radio" id="rada5" name="rad" value="5">
-	  <label for="5">></label>
+	  
+	  <label for="5"><input type="radio" id="rada5" name="rad" value="5" onclick="answerCorrectly(this,'rada5')>></label>
 	<br>
-	  <input type="radio" id="rada6" name="rad" value="6">
-	  <label for="6"><</label>
+	  
+	  <label for="6"><input type="radio" id="rada6" name="rad" value="6" onclick="answerCorrectly(this,'rada6')><</label>
 	<br>
-	  <input type="radio" id="rada7" name="rad" value="7">
-	  <label for="7">|</label>
+	  
+	  <label for="7"><input type="radio" id="rada7" name="rad" value="7" onclick="answerCorrectly(this,'rada7')>|</label>
 	<br>
-	  <input type="radio" id="rada8" name="rad" value="8">
-	  <label for="8">&</label>
+	  
+	  <label for="8"><input type="radio" id="rada8" name="rad" value="8" onclick="answerCorrectly(this,'rada8')>&</label>
 	<br>
 </form>
 
