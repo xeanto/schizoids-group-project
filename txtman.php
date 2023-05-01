@@ -1,73 +1,103 @@
-<?php 
-	$title = "Home";
-	$path = "./";
-	$id = "nano-bn";
-	$secondCSSFileName = ""; //Insert filename here, if no second css page is needed leave like ""
-	include($path . "assets/inc/header.php"); 
-	include($path . "assets/inc/nav.php");
+<?php
+$title = "Home";
+$path = "./";
+$id = "nano-bn";
+$secondCSSFileName = ""; //Insert filename here, if no second css page is needed leave like ""
+include($path . "assets/inc/header.php");
+include($path . "assets/inc/nav.php");
 ?>
 
 
 <main>
-    <h2>Text manipulation</h2>
-    <img id="" src="" alt="">
-    <h3>Inserting text: </h3>
+	<h2>Text manipulation</h2>
+	<img id="" src="" alt="">
+	<h3>Inserting text: </h3>
 	<ul>
-		<li><p>To insert text in Nano, simply start typing at the location where you want to insert the text. The text will be inserted at the cursor position.</p></li>
-    </ul>
-    <h3>Deleting text: </h3>
-		<li><p>To delete text in Nano, use the <b>Backspace</b> or <b>Delete</b> key to remove characters to the left or right of the cursor, respectively. You can also use the <b>Ctrl+K</b> keyboard shortcut to delete the entire line the cursor is on.</p></li>
+		<li>
+			<p>To insert text in Nano, simply start typing at the location where you want to insert the text. The text
+				will be inserted at the cursor position.</p>
+		</li>
+	</ul>
+	<h3>Deleting text: </h3>
+	<li>
+		<p>To delete text in Nano, use the <b>Backspace</b> or <b>Delete</b> key to remove characters to the left or
+			right of the cursor, respectively. You can also use the <b>Ctrl+K</b> keyboard shortcut to delete the entire
+			line the cursor is on.</p>
+	</li>
 	</ul>
 
 	<h3>Cutting, copying, and pasting text: </h3>
 	<ul>
-		<li><p>To cut text in Nano, first use the arrow keys to move the cursor to the beginning of the text you want to cut. Then, use the <b>Ctrl+K</b> keyboard shortcut to delete the text. The text will be stored in Nano's internal buffer.</p></li>
+		<li>
+			<p>To cut text in Nano, first use the arrow keys to move the cursor to the beginning of the text you want to
+				cut. Then, use the <b>Ctrl+K</b> keyboard shortcut to delete the text. The text will be stored in Nano's
+				internal buffer.</p>
+		</li>
 		<br>
-		<li><p>To copy text in Nano, first use the arrow keys to move the cursor to the beginning of the text you want to copy. Then, use the <b>Alt+A</b> keyboard shortcut to mark the beginning of the text, and use the arrow keys to move the cursor to the end of the text. Then, use the <b>Ctrl+K</b> keyboard shortcut to copy the text to Nano's internal buffer.</p></li>
-        <br>
-        <li><p>To paste text in Nano, use the <br>Ctrl+U<br> keyboard shortcut. The text in Nano's internal buffer will be inserted at the cursor position.</p></li>
+		<li>
+			<p>To copy text in Nano, first use the arrow keys to move the cursor to the beginning of the text you want
+				to copy. Then, use the <b>Alt+A</b> keyboard shortcut to mark the beginning of the text, and use the
+				arrow keys to move the cursor to the end of the text. Then, use the <b>Ctrl+K</b> keyboard shortcut to
+				copy the text to Nano's internal buffer.</p>
+		</li>
+		<br>
+		<li>
+			<p>To paste text in Nano, use the <br>Ctrl+U<br> keyboard shortcut. The text in Nano's internal buffer will
+				be inserted at the cursor position.</p>
+		</li>
 	</ul>
 
 	<h3>Scrolling the screen: </h3>
 	<ul>
-		<li><p>To scroll the screen in Nano, use the <b>Ctrl</b> key in combination with the arrow keys. The <b>Ctrl</b> key and <b>Up</b> arrow key scrolls the screen up one line, the <b>Ctrl</b> key and <b>Down</b> arrow key scrolls the screen down one line, the <b>Ctrl</b> key and <b>Left</b> arrow key scrolls the screen left, and the <b>Ctrl</b> key and <b>Right</b> arrow key scrolls the screen right.</p></li>
+		<li>
+			<p>To scroll the screen in Nano, use the <b>Ctrl</b> key in combination with the arrow keys. The <b>Ctrl</b>
+				key and <b>Up</b> arrow key scrolls the screen up one line, the <b>Ctrl</b> key and <b>Down</b> arrow
+				key scrolls the screen down one line, the <b>Ctrl</b> key and <b>Left</b> arrow key scrolls the screen
+				left, and the <b>Ctrl</b> key and <b>Right</b> arrow key scrolls the screen right.</p>
+		</li>
 		<br>
 	</ul>
-    <h3>Searching and replacing text: </h3>
+	<h3>Searching and replacing text: </h3>
 	<ul>
-		<li><p>To search for text in Nano, use the keyboard shortcut <b>Ctrl+W</b>. This will open the search prompt, where you can enter the text you want to search for. Press <b>Enter</b> to start the search.</p></li>
+		<li>
+			<p>To search for text in Nano, use the keyboard shortcut <b>Ctrl+W</b>. This will open the search prompt,
+				where you can enter the text you want to search for. Press <b>Enter</b> to start the search.</p>
+		</li>
 		<br>
-        <li><p>To replace text in Nano, use the keyboard shortcut <b>Ctrl+\</b>. This will open the replace prompt, where you can enter the text you want to replace and the text you want to replace it with. Press <b>Enter</b> to replace the text.</p></li>
+		<li>
+			<p>To replace text in Nano, use the keyboard shortcut <b>Ctrl+\</b>. This will open the replace prompt,
+				where you can enter the text you want to replace and the text you want to replace it with. Press
+				<b>Enter</b> to replace the text.
+			</p>
+		</li>
 	</ul>
 	<h3>Exiting Nano: </h3>
 	<ul>
-		<li><p>To exit Nano, use the keyboard shortcut <b>Ctrl+X</b>. If you have made changes to the file, Nano will prompt you to save the changes before exiting.</p></li>
+		<li>
+			<p>To exit Nano, use the keyboard shortcut <b>Ctrl+X</b>. If you have made changes to the file, Nano will
+				prompt you to save the changes before exiting.</p>
+		</li>
 	</ul>
 </main>
 
 <br>
 
-<h2>Text Manipulation Quiz</h2>
-<div class="Quiz">
-	<p>What is the shortcut for cut in Nano?</p>
-	<label for="1" id="txtmana1Label">
-	  <input type="radio" id="txtmana1" name="txtman" value="1" onclick="answerCorrectly(this,'txtmana3')">
-	  Ctrl+X</label>
-	<br>
-	<label for="2" id="txtmana2Label">
-	  <input type="radio" id="txtmana2" name="txtman" value="2" onclick="answerCorrectly(this,'txtmana3')">
-	  Ctrl+Y</label>
-	<br>
-	<label for="3" id="txtmana3Label">
-	  <input type="radio" id="txtmana3" name="txtman" value="3" onclick="answerCorrectly(this,'txtmana3')">
-	  Ctrl+K</label>
-	<br>
-	<label for="4" id="txtmana4Label">
-	  <input type="radio" id="txtmana4" name="txtman" value="4" onclick="answerCorrectly(this,'txtmana3')">
-	  Ctrl+H</label>
-	<br>  
-</div>
-<?php 
-	//assets/inc/footer.php needs to be finished
-	include($path . "assets/inc/footer.php");
+<?php
+// quiz variables
+$title = "Text Manipulation Quiz";
+$quizQuestions = [
+	0 => "What is the shortcut for cut in Nano?"
+];
+$quizAnswers = [
+	0 => [
+		0 => "Ctrl+X",
+		1 => "Ctrl+Y",
+		2 => "Ctrl+K",
+		3 => "Ctrl+H",
+		4 => "a3"
+	]
+];
+include($path . "assets/inc/quiz.php");
+//assets/inc/footer.php needs to be finished
+include($path . "assets/inc/footer.php");
 ?>
