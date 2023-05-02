@@ -335,16 +335,6 @@ footer img {
     display: block;
     text-align: left;
   }
-<<<<<<< HEAD
-  .topnav.responsive .nav-content {float: none;}
-  .topnav.responsive .Parks-drop {position: relative;}
-  .topnav.responsive .nav-content .nav-button {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }  
-}
-=======
   .topnav.responsive .Parks {
     float: none;
   }
@@ -379,4 +369,3 @@ footer img {
     text-align: left;
   }
 }
->>>>>>> 3fa3aba4fa8971ce13b2899cff6b2876de35cabe
