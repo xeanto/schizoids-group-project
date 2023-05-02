@@ -11,7 +11,7 @@ include($path . "assets/inc/nav.php");
 ?>
 
 <!-- UNIQUE INFO HERE -->
-<div id="hero"><img src="/~iste240t51/assets/media/hero.png" alt="Hero Image"></div>
+<div id="hero"><img src="/~iste240t51/assets/media/hero.png" alt="Hero Image" id="heroImg"></div>
 <div id="top" class="column">
 	<div class="row home-header">
 		<h1 id="title">Unix Survival Guide</h1>
