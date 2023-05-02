@@ -1,3 +1,7 @@
+/* When hovering quiz you get pointer turn into hand */
+.quiz #quiz {
+  cursor: pointer;
+}
 /* define variables for use globally */
 :root {
   --hover-background: #2c393b;
