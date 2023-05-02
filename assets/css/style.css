@@ -247,8 +247,7 @@ footer img {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child),
-  .nav-button {
+  div.topnav > *:not(:first-child) {
     display: none;
   }
   .topnav a.icon {
@@ -285,13 +284,24 @@ footer img {
   .clicked {
     display: unset;
   }
-  .clicked > .nav-button {
-    display: block;
+  .clicked > .nav-content {
+    display: block !important;
   }
   .responsive.clicked {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 33vh;
+  }
+  .clicked .nav-button,
+  .clicked .nav-content,
+  .clicked a {
+    width: 100vw;
+    text-align: center !important;
+    box-sizing: border-box;
+  }
+  .clicked img {
+    display: none;
   }
 }
