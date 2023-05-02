@@ -248,7 +248,7 @@ footer img {
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child),
-  .nav-content .nav-button {
+  .nav-content {
     display: none;
   }
   .topnav a.icon {
