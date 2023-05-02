@@ -272,10 +272,10 @@ footer img {
     display: block;
     text-align: left;
   }
-  .topnav.responsive .nav-content {
+  .topnav.responsive .nav-drop {
     float: none;
   }
-  .topnav.responsive .nav-drop {
+  .topnav.responsive .nav-content {
     position: relative;
   }
   .topnav.responsive .nav-content .nav-button {
