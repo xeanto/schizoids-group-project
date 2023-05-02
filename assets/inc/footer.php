@@ -4,6 +4,7 @@ if (isset($id)) {
 }
 ?>
 <footer>
+  <img src="assets/media/logo.png" alt="Logo">
   <!--Contact info-->
   <div class="copyright">
     <p>© 2023 Team 51 | Casey Malley, Brian Lee, Maureen McLean, Ryan Hamilton, Irwin Lin</p>
