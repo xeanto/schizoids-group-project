@@ -26,7 +26,7 @@
 }
 
 #hero {
-  max-width:100%;
+  max-width: 100%;
 }
 
 body {
@@ -267,5 +267,9 @@ h1 {
 .quiz input[type="radio"] {
   color: var(--important-color);
 }
+
+.quizSubmit {
+}
+
 .home-header {
 }

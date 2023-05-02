@@ -19,7 +19,7 @@ foreach ($quizQuestions as $question) {
         echo "<input type=\"radio\" id=\"a$subCount\" name=\"$count\" value=\"a$subCount\" onclick=\"\">";
         echo "$answer</label><br>";
     }
-    echo "<input type=\"button\" value=\"Check Answer\" onClick=\"validateQuiz('quiz$count', '$actualAnswer')\">";
+    echo "<input type=\"button\" value=\"Check Answer\" onClick=\"validateQuiz('quiz$count', '$actualAnswer')\" class=\"quizSubmit\">";
     echo "</form>"; // close form and put check answer button
     $count++;
 }
