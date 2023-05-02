@@ -245,3 +245,13 @@ footer img {
   color: var(--darker-bg);
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  div.topnav > *:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
