@@ -61,14 +61,21 @@ include($path . "assets/inc/nav.php");
 <br>
 
 <?php
-
-$quizQuestions = array(
-	"Which key combination is used to search for text in Nano?"
-);
-$quizAnswers = array(
-	array("Ctrl+S", "Ctrl+F", "Ctrl+R", "Ctrl+G", "a2")
-);
+// quiz stuff
 $title = "Basic Navigation Quiz";
+$quizQuestions = [
+	0 => "Which key combination is used to search for text in Nano?"
+];
+$quizAnswers = [
+	0 => [
+		0 => "Ctrl+S",
+		1 => "Ctrl+F",
+		2 => "Ctrl+R",
+		3 => "Ctrl+G",
+		4 => "a2"
+	],
+];
+
 include($path . "assets/inc/quiz.php");
 //assets/inc/footer.php needs to be finished
 include($path . "assets/inc/footer.php");
