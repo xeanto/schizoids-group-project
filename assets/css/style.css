@@ -248,14 +248,13 @@ footer img {
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child),
-  .nav-content {
+  .nav-button {
     display: none;
   }
   .topnav a.icon {
     float: right;
     display: block;
   }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -282,5 +281,17 @@ footer img {
     display: block;
     width: 100%;
     text-align: left;
+  }
+  .clicked {
+    display: unset;
+  }
+  .clicked > .nav-button {
+    display: block;
+  }
+  .responsive.clicked {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 }
