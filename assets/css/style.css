@@ -278,7 +278,6 @@ h1 {
   color: var(--lighter-color);
   border: none;
   transition: 0.3s;
-  border-radius: 5px;
   border: 1.2px solid var(--darker-bg);
 }
 .quizSubmit:hover {
