@@ -271,5 +271,9 @@ h1 {
 .quiz input[type="radio"] {
   color: var(--important-color);
 }
-.home-header {
+
+@media only screen and (max-width:700px){
+  .navdrop {
+    display:block;
+  }
 }
