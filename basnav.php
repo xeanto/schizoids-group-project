@@ -72,7 +72,7 @@ $quizAnswers = [
 		1 => "Ctrl+F",
 		2 => "Ctrl+R",
 		3 => "Ctrl+G",
-		4 => "a2"
+		4 => "a1"
 	],
 ];
 
