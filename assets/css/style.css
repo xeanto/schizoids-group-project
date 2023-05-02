@@ -247,9 +247,9 @@ footer img {
 }
 
 @media screen and (max-width: 600px) {
-  div.topnav > *:not(:first-child) {
+  /* div.topnav > *:not(:first-child) {
     display: none;
-  }
+  } */
   .topnav a.icon {
     float: right;
     display: block;
