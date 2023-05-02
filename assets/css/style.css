@@ -301,7 +301,7 @@ footer img {
     text-align: center !important;
     box-sizing: border-box;
   }
-  .clicked img {
-    display: none;
+  .topnav.responsive.clicked a.icon {
+    position: unset;
   }
 }
