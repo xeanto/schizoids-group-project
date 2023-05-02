@@ -31,6 +31,7 @@
 
 #hero {
   max-width: 100%;
+  width: auto;
 }
 
 body {
@@ -238,6 +239,13 @@ h1 {
   padding: 0 !important;
 }
 
+footer img {
+  object-fit: scale-down;
+  height: 2.5rem;
+  width: auto;
+  padding: 0.25rem 0.25rem;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -278,7 +286,6 @@ h1 {
   color: var(--lighter-color);
   border: none;
   transition: 0.3s;
-  border-radius: 5px;
   border: 1.2px solid var(--darker-bg);
 }
 .quizSubmit:hover {
@@ -288,7 +295,24 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .nav-content .nav-button {
+  .topnav a:not(:first-child),
+  .Parks .Parksbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav a:not(:first-child),
+  .About .Aboutbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav a:not(:first-child),
+  .Museums .Museumsbtn {
     display: none;
   }
   .topnav a.icon {
@@ -298,7 +322,9 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
@@ -309,6 +335,7 @@ h1 {
     display: block;
     text-align: left;
   }
+<<<<<<< HEAD
   .topnav.responsive .nav-content {float: none;}
   .topnav.responsive .Parks-drop {position: relative;}
   .topnav.responsive .nav-content .nav-button {
@@ -317,3 +344,39 @@ h1 {
     text-align: left;
   }  
 }
+=======
+  .topnav.responsive .Parks {
+    float: none;
+  }
+  .topnav.responsive .Parks-content {
+    position: relative;
+  }
+  .topnav.responsive .Parks .Parksbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .topnav.responsive .Museums {
+    float: none;
+  }
+  .topnav.responsive .Museums-content {
+    position: relative;
+  }
+  .topnav.responsive .Museums .Museumsbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .topnav.responsive .About {
+    float: none;
+  }
+  .topnav.responsive .About-content {
+    position: relative;
+  }
+  .topnav.responsive .About .Aboutbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+>>>>>>> 3fa3aba4fa8971ce13b2899cff6b2876de35cabe
