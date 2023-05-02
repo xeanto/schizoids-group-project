@@ -269,7 +269,16 @@ h1 {
 }
 
 .quizSubmit {
+  padding: 0.4rem 1rem;
+  background: var(--darker-bg);
+  color: var(--lighter-color);
+  border: none;
+  transition: 0.3s;
+  border-radius: 5px;
+  border: 1.2px solid var(--darker-bg);
 }
-
-.home-header {
+.quizSubmit:hover {
+  background: var(--lighter-color);
+  color: var(--darker-bg);
+  cursor: pointer;
 }
